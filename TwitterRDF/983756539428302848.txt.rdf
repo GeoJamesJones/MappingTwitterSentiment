@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-1'>
+    <rdfs:label>@StatusHour</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@StatusHour</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Education rdf:ID='id-3'>
+    <rdfs:label>Open University</rdfs:label>
+    <netowl:Entity.Organization.Education..name>Open University</netowl:Entity.Organization.Education..name>
+    <netowl:Link.Organization.Org_location..organization..reverse rdf:resource='#id-17'/>
+    <netowl:Link.Person.Person_affiliation..organization..reverse rdf:resource='#id-21'/>
+  </netowl:Entity.Organization.Education>
+
+  <netowl:Entity.Organization.Other rdf:ID='id-5'>
+    <rdfs:label>Vomena</rdfs:label>
+    <netowl:Entity.Organization.Other..name>Vomena</netowl:Entity.Organization.Other..name>
+    <netowl:Link.Person.Person_affiliation..organization..reverse rdf:resource='#id-19'/>
+  </netowl:Entity.Organization.Other>
+
+  <netowl:Entity.Person rdf:ID='id-7'>
+    <rdfs:label>Cengiz Gunes</rdfs:label>
+    <netowl:Entity.Person..name>Cengiz Gunes</netowl:Entity.Person..name>
+    <netowl:Entity.Person..descriptor>Dr.</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..descriptor>an Associate Lecturer at the Open University in the UK</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..firstname>cengiz</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>gunes</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+    <netowl:Link.Person.Person_affiliation..person..reverse rdf:resource='#id-21'/>
+    <netowl:Link.Person.Person_transient_in..person..reverse rdf:resource='#id-23'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-12'>
+    <rdfs:label>Shahram Aghamir</rdfs:label>
+    <netowl:Entity.Person..name>Shahram Aghamir</netowl:Entity.Person..name>
+    <netowl:Entity.Person..descriptor>Vomena’s Producer</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..firstname>shahram</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>aghamir</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+    <netowl:Link.Person.Person_affiliation..person..reverse rdf:resource='#id-19'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.Country rdf:ID='id-15'>
+    <rdfs:label>UK</rdfs:label>
+    <netowl:Entity.Place.Country..name>UK</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>uk</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>gb</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>united kingdom</netowl:Entity.Place.Country..country>
+    <netowl:Link.Organization.Org_location..location..reverse rdf:resource='#id-17'/>
+    <netowl:Link.Person.Person_transient_in..place..reverse rdf:resource='#id-23'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>54</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>-2</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Link.Organization.Org_location rdf:ID='id-17'>
+    <netowl:Link.Organization.Org_location..organization rdf:resource='#id-3'/>
+    <netowl:Link.Organization.Org_location..location rdf:resource='#id-15'/>
+  </netowl:Link.Organization.Org_location>
+
+  <netowl:Link.Person.Person_affiliation rdf:ID='id-19'>
+    <netowl:Link.Person.Person_affiliation..position>Vomena’s Producer</netowl:Link.Person.Person_affiliation..position>
+    <netowl:Link.Person.Person_affiliation..person rdf:resource='#id-12'/>
+    <netowl:Link.Person.Person_affiliation..organization rdf:resource='#id-5'/>
+  </netowl:Link.Person.Person_affiliation>
+
+  <netowl:Link.Person.Person_affiliation rdf:ID='id-21'>
+    <netowl:Link.Person.Person_affiliation..position>an Associate Lecturer at the Open University in the UK</netowl:Link.Person.Person_affiliation..position>
+    <netowl:Link.Person.Person_affiliation..person rdf:resource='#id-7'/>
+    <netowl:Link.Person.Person_affiliation..organization rdf:resource='#id-3'/>
+  </netowl:Link.Person.Person_affiliation>
+
+  <netowl:Link.Person.Person_transient_in rdf:ID='id-23'>
+    <netowl:Link.Person.Person_transient_in..person rdf:resource='#id-7'/>
+    <netowl:Link.Person.Person_transient_in..place rdf:resource='#id-15'/>
+  </netowl:Link.Person.Person_transient_in>
+
+</rdf:RDF>

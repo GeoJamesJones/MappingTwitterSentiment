@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/kQoKBfSXcp</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/kQoKBfSXcp</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Erdogan</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Erdogan</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-6'>
+    <rdfs:label>femen</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>femen</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-8'>
+    <rdfs:label>Feminists</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Feminists</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-10'>
+    <rdfs:label>Putin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Putin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-12'>
+    <rdfs:label>RussianElections</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>RussianElections</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-14'>
+    <rdfs:label>@Femen</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@Femen</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-16'>
+    <rdfs:label>@FEMEN_Movement</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@FEMEN_Movement</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-18'>
+    <rdfs:label>@GregoryHerpe69</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@GregoryHerpe69</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Person rdf:ID='id-20'>
+    <rdfs:label>Erdogan</rdfs:label>
+    <netowl:Entity.Person..name>Erdogan</netowl:Entity.Person..name>
+    <netowl:Entity.Person..lastname>erdogan</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-23'>
+    <rdfs:label>Putin</rdfs:label>
+    <netowl:Entity.Person..name>Putin</netowl:Entity.Person..name>
+    <netowl:Entity.Person..lastname>putin</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+    <netowl:Event.Conflict.Attack_target..target..reverse rdf:resource='#id-25'/>
+  </netowl:Entity.Person>
+
+  <netowl:Event.Conflict.Attack_target rdf:ID='id-25'>
+    <rdfs:label>fight</rdfs:label>
+    <netowl:Event.Conflict.Attack_target..predicate>fight</netowl:Event.Conflict.Attack_target..predicate>
+    <netowl:Event.Conflict.Attack_target..tense>present</netowl:Event.Conflict.Attack_target..tense>
+    <netowl:Event.Conflict.Attack_target..target rdf:resource='#id-23'/>
+  </netowl:Event.Conflict.Attack_target>
+
+</rdf:RDF>

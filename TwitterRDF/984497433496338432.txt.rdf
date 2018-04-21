@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/3zcZNnaMar</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/3zcZNnaMar</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Address.Url rdf:ID='id-3'>
+    <rdfs:label>https://t.co/NRewtm1FjM</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/NRewtm1FjM</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>Erdogan</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Erdogan</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-9'>
+    <rdfs:label>femen</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>femen</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-11'>
+    <rdfs:label>Putin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Putin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-13'>
+    <rdfs:label>RussianElection</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>RussianElection</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-15'>
+    <rdfs:label>@GregoryHerpe69</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@GregoryHerpe69</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Person rdf:ID='id-17'>
+    <rdfs:label>Erdogan</rdfs:label>
+    <netowl:Entity.Person..name>Erdogan</netowl:Entity.Person..name>
+    <netowl:Entity.Person..lastname>erdogan</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+    <netowl:Event.Conflict.Attack_target..target..reverse rdf:resource='#id-23'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-19'>
+    <rdfs:label>feminists</rdfs:label>
+    <netowl:Entity.Person..descriptor>feminists</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..gender>female</netowl:Entity.Person..gender>
+    <netowl:Event.Conflict.Attack_target..attacker..reverse rdf:resource='#id-23'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-21'>
+    <rdfs:label>Putin</rdfs:label>
+    <netowl:Entity.Person..name>Putin</netowl:Entity.Person..name>
+    <netowl:Entity.Person..lastname>putin</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+    <netowl:Event.Conflict.Attack_target..target..reverse rdf:resource='#id-23'/>
+  </netowl:Entity.Person>
+
+  <netowl:Event.Conflict.Attack_target rdf:ID='id-23'>
+    <rdfs:label>fight</rdfs:label>
+    <netowl:Event.Conflict.Attack_target..predicate>fight</netowl:Event.Conflict.Attack_target..predicate>
+    <netowl:Event.Conflict.Attack_target..tense>present</netowl:Event.Conflict.Attack_target..tense>
+    <netowl:Event.Conflict.Attack_target..attacker rdf:resource='#id-19'/>
+    <netowl:Event.Conflict.Attack_target..target rdf:resource='#id-17'/>
+    <netowl:Event.Conflict.Attack_target..target rdf:resource='#id-21'/>
+  </netowl:Event.Conflict.Attack_target>
+
+</rdf:RDF>

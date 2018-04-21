@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-1'>
+    <rdfs:label>عفرين</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>عفرين</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>BoycottTurkeyTourism</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>BoycottTurkeyTourism</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>Efrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Efrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-9'>
+    <rdfs:label>Erdogan</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Erdogan</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-11'>
+    <rdfs:label>Kurds</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Kurds</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-13'>
+    <rdfs:label>Manbij</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Manbij</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-15'>
+    <rdfs:label>PKK</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>PKK</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-17'>
+    <rdfs:label>SDF</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>SDF</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-19'>
+    <rdfs:label>TwitterKurds</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>TwitterKurds</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-21'>
+    <rdfs:label>YPG</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>YPG</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-23'>
+    <rdfs:label>ZeytinDaliHarekati</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>ZeytinDaliHarekati</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-25'>
+    <rdfs:label>@mozej21369586</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@mozej21369586</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+</rdf:RDF>

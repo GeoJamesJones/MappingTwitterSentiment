@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/42CktxyULR</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/42CktxyULR</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Artifact.Weapon.Explosive rdf:ID='id-3'>
+    <rdfs:label>a mine</rdfs:label>
+    <netowl:Entity.Artifact.Weapon.Explosive..descriptor>a mine</netowl:Entity.Artifact.Weapon.Explosive..descriptor>
+  </netowl:Entity.Artifact.Weapon.Explosive>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>civilians</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>civilians</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>explosion</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>explosion</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-9'>
+    <rdfs:label>Sheikho</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Sheikho</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Person rdf:ID='id-11'>
+    <rdfs:label>Sharfan Sheikh Mohammed</rdfs:label>
+    <netowl:Entity.Person..name>Sharfan Sheikh Mohammed</netowl:Entity.Person..name>
+    <netowl:Entity.Person..firstname>sharfan</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>sheikh_mohammed</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+  </netowl:Entity.Person>
+
+</rdf:RDF>

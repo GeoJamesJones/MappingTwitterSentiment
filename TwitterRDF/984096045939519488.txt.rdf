@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-1'>
+    <rdfs:label>AfrinGenocide</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>AfrinGenocide</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Syria</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Syria</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-5'>
+    <rdfs:label>@ICafrinresist</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@ICafrinresist</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Other rdf:ID='id-7'>
+    <rdfs:label>North Syria Democratic Federation</rdfs:label>
+    <netowl:Entity.Organization.Other..name>North Syria Democratic Federation</netowl:Entity.Organization.Other..name>
+    <netowl:Link.Person.Person_affiliation..organization..reverse rdf:resource='#id-16'/>
+  </netowl:Entity.Organization.Other>
+
+  <netowl:Entity.Person rdf:ID='id-9'>
+    <rdfs:label>Fewza Yusif</rdfs:label>
+    <netowl:Entity.Person..name>Fewza Yusif</netowl:Entity.Person..name>
+    <netowl:Entity.Person..descriptor>North Syria Democratic Federation Co-Chair</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..firstname>fewza</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>yusif</netowl:Entity.Person..lastname>
+    <netowl:Link.Person.Person_affiliation..person..reverse rdf:resource='#id-16'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-12'>
+    <rdfs:label>Feyleq El Rahm</rdfs:label>
+    <netowl:Entity.Person..name>Feyleq El Rahm</netowl:Entity.Person..name>
+    <netowl:Entity.Person..firstname>feyleq</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>el_rahm</netowl:Entity.Person..lastname>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.Country rdf:ID='id-14'>
+    <rdfs:label>Turkey</rdfs:label>
+    <netowl:Entity.Place.Country..name>Turkey</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Link.Person.Person_affiliation rdf:ID='id-16'>
+    <netowl:Link.Person.Person_affiliation..position>North Syria Democratic Federation Co-Chair</netowl:Link.Person.Person_affiliation..position>
+    <netowl:Link.Person.Person_affiliation..person rdf:resource='#id-9'/>
+    <netowl:Link.Person.Person_affiliation..organization rdf:resource='#id-7'/>
+  </netowl:Link.Person.Person_affiliation>
+
+</rdf:RDF>

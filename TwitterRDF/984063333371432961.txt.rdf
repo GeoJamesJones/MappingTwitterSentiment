@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-1'>
+    <rdfs:label>EU</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>EU</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-3'>
+    <rdfs:label>@ICafrinresist</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@ICafrinresist</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Government rdf:ID='id-5'>
+    <rdfs:label>European Parliament</rdfs:label>
+    <netowl:Entity.Organization.Government..name>European Parliament</netowl:Entity.Organization.Government..name>
+  </netowl:Entity.Organization.Government>
+
+  <netowl:Entity.Organization.Organization rdf:ID='id-7'>
+    <rdfs:label>EU</rdfs:label>
+    <netowl:Entity.Organization.Organization..name>EU</netowl:Entity.Organization.Organization..name>
+  </netowl:Entity.Organization.Organization>
+
+  <netowl:Entity.Organization.Other rdf:ID='id-9'>
+    <rdfs:label>Federation of Northern Syria</rdfs:label>
+    <netowl:Entity.Organization.Other..name>Federation of Northern Syria</netowl:Entity.Organization.Other..name>
+  </netowl:Entity.Organization.Other>
+
+  <netowl:Entity.Place.Country rdf:ID='id-11'>
+    <rdfs:label>Turkish</rdfs:label>
+    <netowl:Entity.Place.Country..name>Turkish</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Event.Conflict.Attack_target..attacker..reverse rdf:resource='#id-13'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Event.Conflict.Attack_target rdf:ID='id-13'>
+    <rdfs:label>the Turkish aggression</rdfs:label>
+    <netowl:Event.Conflict.Attack_target..predicate>the Turkish aggression</netowl:Event.Conflict.Attack_target..predicate>
+    <netowl:Event.Conflict.Attack_target..attacker rdf:resource='#id-11'/>
+  </netowl:Event.Conflict.Attack_target>
+
+</rdf:RDF>

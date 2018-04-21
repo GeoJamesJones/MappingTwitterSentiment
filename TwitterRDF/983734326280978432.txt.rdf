@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-1'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-3'>
+    <rdfs:label>@Lilith_Hadi</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@Lilith_Hadi</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Place.City rdf:ID='id-5'>
+    <rdfs:label>Firenze</rdfs:label>
+    <netowl:Entity.Place.City..name>Firenze</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>it</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>it</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>italy</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>tuscany</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.9636</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>43.7667</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>11.25</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-7'>
+    <rdfs:label>Italy</rdfs:label>
+    <netowl:Entity.Place.Country..name>Italy</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>it</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>it</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>italy</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>42.8333</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>12.8333</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Region rdf:ID='id-9'>
+    <rdfs:label>kurdish</rdfs:label>
+    <netowl:Entity.Place.Region..name>kurdish</netowl:Entity.Place.Region..name>
+  </netowl:Entity.Place.Region>
+
+  <netowl:Entity.Time.Temporal rdf:ID='id-11'>
+    <rdfs:label>today</rdfs:label>
+    <netowl:Entity.Time.Temporal..name>today</netowl:Entity.Time.Temporal..name>
+  </netowl:Entity.Time.Temporal>
+
+</rdf:RDF>

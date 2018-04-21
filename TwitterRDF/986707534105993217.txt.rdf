@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/G…</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/G…</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Address.Url rdf:ID='id-3'>
+    <rdfs:label>https://t.co/uVUfu7BGzV</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/uVUfu7BGzV</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>resistance</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>resistance</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-9'>
+    <rdfs:label>song</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>song</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-11'>
+    <rdfs:label>Yazidi</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Yazidi</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-13'>
+    <rdfs:label>@juergen_p</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@juergen_p</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Person rdf:ID='id-15'>
+    <rdfs:label>Yazidi</rdfs:label>
+    <netowl:Entity.Person..name>Yazidi</netowl:Entity.Person..name>
+    <netowl:Entity.Person..firstname>yazidi</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Time.Date rdf:ID='id-17'>
+    <rdfs:label>Wednesday</rdfs:label>
+    <netowl:Entity.Time.Date..name>Wednesday</netowl:Entity.Time.Date..name>
+    <netowl:Entity.Time.Date..dow>wednesday</netowl:Entity.Time.Date..dow>
+  </netowl:Entity.Time.Date>
+
+</rdf:RDF>

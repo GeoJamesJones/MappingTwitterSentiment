@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/NxM2rX5lCH</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/NxM2rX5lCH</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>Belgium</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Belgium</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>Brussel</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Brussel</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-9'>
+    <rdfs:label>@EFA_Youth</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@EFA_Youth</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Government rdf:ID='id-11'>
+    <rdfs:label>Congress</rdfs:label>
+    <netowl:Entity.Organization.Government..name>Congress</netowl:Entity.Organization.Government..name>
+    <netowl:Link.Organization.Org_location..organization..reverse rdf:resource='#id-18'/>
+  </netowl:Entity.Organization.Government>
+
+  <netowl:Entity.Place.City rdf:ID='id-14'>
+    <rdfs:label>Brussel</rdfs:label>
+    <netowl:Entity.Place.City..name>Brussel</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>be</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>be</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>belgium</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>brussels-capital region</netowl:Entity.Place.City..province>
+    <netowl:Link.Organization.Org_location..location..reverse rdf:resource='#id-18'/>
+    <netowl:Entity.Place.City..geocode_confidence>0.9116</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>50.8333</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>4.3333</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-16'>
+    <rdfs:label>Belgium</rdfs:label>
+    <netowl:Entity.Place.Country..name>Belgium</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>be</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>be</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>belgium</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>50.8333</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>4</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Link.Organization.Org_location rdf:ID='id-18'>
+    <netowl:Link.Organization.Org_location..organization rdf:resource='#id-11'/>
+    <netowl:Link.Organization.Org_location..location rdf:resource='#id-14'/>
+  </netowl:Link.Organization.Org_location>
+
+</rdf:RDF>

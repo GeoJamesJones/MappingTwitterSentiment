@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/tmsRK2iw4a</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/tmsRK2iw4a</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Erdogan</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Erdogan</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>IS_Jihadists</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>IS_Jihadists</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>Kurds</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Kurds</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Person rdf:ID='id-10'>
+    <rdfs:label>Erdogan</rdfs:label>
+    <netowl:Entity.Person..name>Erdogan</netowl:Entity.Person..name>
+    <netowl:Entity.Person..lastname>erdogan</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+    <netowl:Event.Conflict.Attack_target..target..reverse rdf:resource='#id-20'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-14'>
+    <rdfs:label>his partners</rdfs:label>
+    <netowl:Entity.Person..descriptor>his partners</netowl:Entity.Person..descriptor>
+    <netowl:Event.Conflict.Attack_target..target..reverse rdf:resource='#id-20'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.Country rdf:ID='id-16'>
+    <rdfs:label>Iraq</rdfs:label>
+    <netowl:Entity.Place.Country..name>Iraq</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>iz</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>iq</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>iraq</netowl:Entity.Place.Country..country>
+    <netowl:Event.Conflict.Attack_target..place..reverse rdf:resource='#id-20'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>33</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>44</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Country rdf:ID='id-18'>
+    <rdfs:label>Syria</rdfs:label>
+    <netowl:Entity.Place.Country..name>Syria</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>sy</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>sy</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>syria</netowl:Entity.Place.Country..country>
+    <netowl:Event.Conflict.Attack_target..place..reverse rdf:resource='#id-20'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>35</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>38</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Event.Conflict.Attack_target rdf:ID='id-20'>
+    <rdfs:label>attacking</rdfs:label>
+    <netowl:Event.Conflict.Attack_target..predicate>attacking</netowl:Event.Conflict.Attack_target..predicate>
+    <netowl:Event.Conflict.Attack_target..target rdf:resource='#id-10'/>
+    <netowl:Event.Conflict.Attack_target..target rdf:resource='#id-14'/>
+    <netowl:Event.Conflict.Attack_target..place rdf:resource='#id-16'/>
+    <netowl:Event.Conflict.Attack_target..place rdf:resource='#id-18'/>
+  </netowl:Event.Conflict.Attack_target>
+
+</rdf:RDF>

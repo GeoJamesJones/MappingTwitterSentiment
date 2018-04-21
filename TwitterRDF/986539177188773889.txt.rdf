@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Artifact.Vehicle.Other rdf:ID='id-1'>
+    <rdfs:label>a vehicle used by Turkish-backed rebels to transport ammunition</rdfs:label>
+    <netowl:Entity.Artifact.Vehicle.Other..descriptor>a vehicle</netowl:Entity.Artifact.Vehicle.Other..descriptor>
+    <netowl:Entity.Artifact.Vehicle.Other..descriptor>a vehicle used by Turkish-backed rebels to transport ammunition</netowl:Entity.Artifact.Vehicle.Other..descriptor>
+    <netowl:Event.Conflict.Attack_target..target..reverse rdf:resource='#id-24'/>
+    <netowl:Event.Transaction.Transport_artifact..transporter..reverse rdf:resource='#id-26'/>
+  </netowl:Entity.Artifact.Vehicle.Other>
+
+  <netowl:Entity.Artifact.Weapon.Other rdf:ID='id-4'>
+    <rdfs:label>ammunition</rdfs:label>
+    <netowl:Entity.Artifact.Weapon.Other..descriptor>ammunition</netowl:Entity.Artifact.Weapon.Other..descriptor>
+    <netowl:Event.Transaction.Transport_artifact..artifact..reverse rdf:resource='#id-26'/>
+  </netowl:Entity.Artifact.Weapon.Other>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-6'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>AFRIN</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-9'>
+    <rdfs:label>@GoranAhmed6</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@GoranAhmed6</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Terrorist rdf:ID='id-11'>
+    <rdfs:label>YPG</rdfs:label>
+    <netowl:Entity.Organization.Terrorist..name>YPG</netowl:Entity.Organization.Terrorist..name>
+  </netowl:Entity.Organization.Terrorist>
+
+  <netowl:Entity.Place.City rdf:ID='id-13'>
+    <rdfs:label>Kala</rdfs:label>
+    <netowl:Entity.Place.City..name>Kala</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..descriptor>Kala village in Afrin</netowl:Entity.Place.City..descriptor>
+    <netowl:Entity.Place.City..fips_10_4_country>tu</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>tr</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>turkey</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>sanliurfa</netowl:Entity.Place.City..province>
+    <netowl:Link.Place.Place_parent..place..reverse rdf:resource='#id-22'/>
+    <netowl:Event.Conflict.Attack_target..place..reverse rdf:resource='#id-24'/>
+    <netowl:Entity.Place.City..geocode_confidence>0.1676</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>37.1862</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>39.8862</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-16'>
+    <rdfs:label>Turkish</rdfs:label>
+    <netowl:Entity.Place.Country..name>Turkish</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Other rdf:ID='id-18'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Place.Other..name>Afrin</netowl:Entity.Place.Other..name>
+    <netowl:Entity.Place.Other..fips_10_4_country>sy</netowl:Entity.Place.Other..fips_10_4_country>
+    <netowl:Entity.Place.Other..iso_3166_1_country>sy</netowl:Entity.Place.Other..iso_3166_1_country>
+    <netowl:Entity.Place.Other..country>syria</netowl:Entity.Place.Other..country>
+    <netowl:Entity.Place.Other..province>halab</netowl:Entity.Place.Other..province>
+    <netowl:Link.Place.Place_parent..parent..reverse rdf:resource='#id-22'/>
+    <netowl:Entity.Place.Other..geocode_confidence>0.7127</netowl:Entity.Place.Other..geocode_confidence>
+    <netowl:Entity.Place.Other..latitude>36.5119</netowl:Entity.Place.Other..latitude>
+    <netowl:Entity.Place.Other..longitude>36.8695</netowl:Entity.Place.Other..longitude>
+  </netowl:Entity.Place.Other>
+
+  <netowl:Entity.Time.Temporal rdf:ID='id-20'>
+    <rdfs:label>today</rdfs:label>
+    <netowl:Entity.Time.Temporal..name>today</netowl:Entity.Time.Temporal..name>
+  </netowl:Entity.Time.Temporal>
+
+  <netowl:Link.Place.Place_parent rdf:ID='id-22'>
+    <netowl:Link.Place.Place_parent..place rdf:resource='#id-13'/>
+    <netowl:Link.Place.Place_parent..parent rdf:resource='#id-18'/>
+  </netowl:Link.Place.Place_parent>
+
+  <netowl:Event.Conflict.Attack_target rdf:ID='id-24'>
+    <rdfs:label>destroyed</rdfs:label>
+    <netowl:Event.Conflict.Attack_target..predicate>destroyed</netowl:Event.Conflict.Attack_target..predicate>
+    <netowl:Event.Conflict.Attack_target..tense>past</netowl:Event.Conflict.Attack_target..tense>
+    <netowl:Event.Conflict.Attack_target..target rdf:resource='#id-1'/>
+    <netowl:Event.Conflict.Attack_target..place rdf:resource='#id-13'/>
+  </netowl:Event.Conflict.Attack_target>
+
+  <netowl:Event.Transaction.Transport_artifact rdf:ID='id-26'>
+    <rdfs:label>to transport</rdfs:label>
+    <netowl:Event.Transaction.Transport_artifact..predicate>to transport</netowl:Event.Transaction.Transport_artifact..predicate>
+    <netowl:Event.Transaction.Transport_artifact..transporter rdf:resource='#id-1'/>
+    <netowl:Event.Transaction.Transport_artifact..artifact rdf:resource='#id-4'/>
+  </netowl:Event.Transaction.Transport_artifact>
+
+</rdf:RDF>

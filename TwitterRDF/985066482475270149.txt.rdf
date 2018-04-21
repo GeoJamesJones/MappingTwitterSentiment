@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://…</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://…</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Artifact.Vehicle.Ground rdf:ID='id-3'>
+    <rdfs:label>his tractor</rdfs:label>
+    <netowl:Entity.Artifact.Vehicle.Ground..descriptor>his tractor</netowl:Entity.Artifact.Vehicle.Ground..descriptor>
+    <netowl:Event.Crime.Steal_artifact..artifact..reverse rdf:resource='#id-15'/>
+  </netowl:Entity.Artifact.Vehicle.Ground>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>AfrinOperasyonu</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>AfrinOperasyonu</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-9'>
+    <rdfs:label>FSA</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>FSA</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-11'>
+    <rdfs:label>@SyriaGeneral</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@SyriaGeneral</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Organization rdf:ID='id-13'>
+    <rdfs:label>FSA</rdfs:label>
+    <netowl:Entity.Organization.Organization..name>FSA</netowl:Entity.Organization.Organization..name>
+    <netowl:Event.Crime.Steal_artifact..robber..reverse rdf:resource='#id-15'/>
+  </netowl:Entity.Organization.Organization>
+
+  <netowl:Event.Crime.Steal_artifact rdf:ID='id-15'>
+    <rdfs:label>stole</rdfs:label>
+    <netowl:Event.Crime.Steal_artifact..predicate>stole</netowl:Event.Crime.Steal_artifact..predicate>
+    <netowl:Event.Crime.Steal_artifact..tense>past</netowl:Event.Crime.Steal_artifact..tense>
+    <netowl:Event.Crime.Steal_artifact..robber rdf:resource='#id-13'/>
+    <netowl:Event.Crime.Steal_artifact..artifact rdf:resource='#id-3'/>
+  </netowl:Event.Crime.Steal_artifact>
+
+</rdf:RDF>

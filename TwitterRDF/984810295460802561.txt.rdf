@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-1'>
+    <rdfs:label>@ICafrinresist</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@ICafrinresist</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Person rdf:ID='id-3'>
+    <rdfs:label>Amina Nour</rdfs:label>
+    <netowl:Entity.Person..name>Amina Nour</netowl:Entity.Person..name>
+    <netowl:Entity.Person..firstname>amina</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>nour</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>female</netowl:Entity.Person..gender>
+    <netowl:Event.Family.Die..person..reverse rdf:resource='#id-17'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-5'>
+    <rdfs:label>Hamreen Yousef</rdfs:label>
+    <netowl:Entity.Person..name>Hamreen Yousef</netowl:Entity.Person..name>
+    <netowl:Entity.Person..firstname>hamreen</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>yousef</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..age rdf:resource='#id-7'/>
+    <netowl:Event.Family.Die..person..reverse rdf:resource='#id-15'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Time.Age rdf:ID='id-7'>
+    <rdfs:label>16 days old</rdfs:label>
+    <netowl:Entity.Time.Age..name>16 days old</netowl:Entity.Time.Age..name>
+    <netowl:Entity.Person..age..reverse rdf:resource='#id-5'/>
+  </netowl:Entity.Time.Age>
+
+  <netowl:Entity.Time.Date rdf:ID='id-9'>
+    <rdfs:label>5 April</rdfs:label>
+    <netowl:Entity.Time.Date..name>5 April</netowl:Entity.Time.Date..name>
+    <netowl:Entity.Time.Date..day>05</netowl:Entity.Time.Date..day>
+    <netowl:Entity.Time.Date..month>04</netowl:Entity.Time.Date..month>
+    <netowl:Event.Family.Die..time..reverse rdf:resource='#id-17'/>
+  </netowl:Entity.Time.Date>
+
+  <netowl:Entity.Time.Duration rdf:ID='id-11'>
+    <rdfs:label>5 days</rdfs:label>
+    <netowl:Entity.Time.Duration..name>5 days</netowl:Entity.Time.Duration..name>
+  </netowl:Entity.Time.Duration>
+
+  <netowl:Entity.Time.Temporal rdf:ID='id-13'>
+    <rdfs:label>the 10th of this month</rdfs:label>
+    <netowl:Entity.Time.Temporal..name>the 10th of this month</netowl:Entity.Time.Temporal..name>
+    <netowl:Entity.Time.Temporal..day>10</netowl:Entity.Time.Temporal..day>
+    <netowl:Event.Family.Die..time..reverse rdf:resource='#id-15'/>
+  </netowl:Entity.Time.Temporal>
+
+  <netowl:Event.Family.Die rdf:ID='id-15'>
+    <rdfs:label>died</rdfs:label>
+    <netowl:Event.Family.Die..predicate>died</netowl:Event.Family.Die..predicate>
+    <netowl:Event.Family.Die..tense>past</netowl:Event.Family.Die..tense>
+    <netowl:Event.Family.Die..person rdf:resource='#id-5'/>
+    <netowl:Event.Family.Die..time rdf:resource='#id-13'/>
+  </netowl:Event.Family.Die>
+
+  <netowl:Event.Family.Die rdf:ID='id-17'>
+    <rdfs:label>died</rdfs:label>
+    <netowl:Event.Family.Die..predicate>died</netowl:Event.Family.Die..predicate>
+    <netowl:Event.Family.Die..tense>past</netowl:Event.Family.Die..tense>
+    <netowl:Event.Family.Die..person rdf:resource='#id-3'/>
+    <netowl:Event.Family.Die..time rdf:resource='#id-9'/>
+  </netowl:Event.Family.Die>
+
+</rdf:RDF>

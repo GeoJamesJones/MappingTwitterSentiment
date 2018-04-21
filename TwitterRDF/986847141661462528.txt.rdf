@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/q6fXpEN2zz</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/q6fXpEN2zz</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Organization.Military rdf:ID='id-3'>
+    <rdfs:label>NATO</rdfs:label>
+    <netowl:Entity.Organization.Military..name>NATO</netowl:Entity.Organization.Military..name>
+  </netowl:Entity.Organization.Military>
+
+  <netowl:Entity.Organization.Terrorist rdf:ID='id-5'>
+    <rdfs:label>isis</rdfs:label>
+    <netowl:Entity.Organization.Terrorist..name>isis</netowl:Entity.Organization.Terrorist..name>
+  </netowl:Entity.Organization.Terrorist>
+
+  <netowl:Entity.Organization.Terrorist rdf:ID='id-7'>
+    <rdfs:label>qaeda</rdfs:label>
+    <netowl:Entity.Organization.Terrorist..name>qaeda</netowl:Entity.Organization.Terrorist..name>
+  </netowl:Entity.Organization.Terrorist>
+
+  <netowl:Entity.Person rdf:ID='id-9'>
+    <rdfs:label>Erdogan</rdfs:label>
+    <netowl:Entity.Person..name>Erdogan</netowl:Entity.Person..name>
+    <netowl:Entity.Person..lastname>erdogan</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-11'>
+    <rdfs:label>Saddam</rdfs:label>
+    <netowl:Entity.Person..name>Saddam</netowl:Entity.Person..name>
+    <netowl:Entity.Person..descriptor>a western Ally</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..firstname>saddam</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+    <netowl:Event.Conflict.Invade_land..invader..reverse rdf:resource='#id-17'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.Country rdf:ID='id-15'>
+    <rdfs:label>Kuwait</rdfs:label>
+    <netowl:Entity.Place.Country..name>Kuwait</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>ku</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>kw</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>kuwait</netowl:Entity.Place.Country..country>
+    <netowl:Event.Conflict.Invade_land..location..reverse rdf:resource='#id-17'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>29.5</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>47.95</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Event.Conflict.Invade_land rdf:ID='id-17'>
+    <rdfs:label>invaded</rdfs:label>
+    <netowl:Event.Conflict.Invade_land..predicate>invaded</netowl:Event.Conflict.Invade_land..predicate>
+    <netowl:Event.Conflict.Invade_land..tense>past</netowl:Event.Conflict.Invade_land..tense>
+    <netowl:Event.Conflict.Invade_land..invader rdf:resource='#id-11'/>
+    <netowl:Event.Conflict.Invade_land..location rdf:resource='#id-15'/>
+  </netowl:Event.Conflict.Invade_land>
+
+</rdf:RDF>

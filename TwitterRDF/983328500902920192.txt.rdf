@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/4LmmxLZAs4</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/4LmmxLZAs4</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Switzerland</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Switzerland</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Person rdf:ID='id-5'>
+    <rdfs:label>Erdogan</rdfs:label>
+    <netowl:Entity.Person..name>Erdogan</netowl:Entity.Person..name>
+    <netowl:Entity.Person..lastname>erdogan</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+    <netowl:Event.Conflict.Kill..victim..reverse rdf:resource='#id-16'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.City rdf:ID='id-7'>
+    <rdfs:label>Bern</rdfs:label>
+    <netowl:Entity.Place.City..name>Bern</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>sz</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>ch</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>switzerland</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>bern</netowl:Entity.Place.City..province>
+    <netowl:Link.Place.Place_parent..place..reverse rdf:resource='#id-13'/>
+    <netowl:Event.Conflict.Kill..place..reverse rdf:resource='#id-16'/>
+    <netowl:Entity.Place.City..geocode_confidence>0.9605</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>46.9167</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>7.4667</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-10'>
+    <rdfs:label>Switzerland</rdfs:label>
+    <netowl:Entity.Place.Country..name>Switzerland</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>sz</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>ch</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>switzerland</netowl:Entity.Place.Country..country>
+    <netowl:Link.Place.Place_parent..parent..reverse rdf:resource='#id-13'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>47</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>8</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Link.Place.Place_parent rdf:ID='id-13'>
+    <netowl:Link.Place.Place_parent..place rdf:resource='#id-7'/>
+    <netowl:Link.Place.Place_parent..parent rdf:resource='#id-10'/>
+  </netowl:Link.Place.Place_parent>
+
+  <netowl:Event.Conflict.Kill rdf:ID='id-16'>
+    <rdfs:label>Kill</rdfs:label>
+    <netowl:Event.Conflict.Kill..predicate>Kill</netowl:Event.Conflict.Kill..predicate>
+    <netowl:Event.Conflict.Kill..tense>present</netowl:Event.Conflict.Kill..tense>
+    <netowl:Event.Conflict.Kill..victim rdf:resource='#id-5'/>
+    <netowl:Event.Conflict.Kill..place rdf:resource='#id-7'/>
+  </netowl:Event.Conflict.Kill>
+
+</rdf:RDF>

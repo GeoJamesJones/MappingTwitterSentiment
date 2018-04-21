@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/rQSdyziDEq</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/rQSdyziDEq</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Organization.Government rdf:ID='id-3'>
+    <rdfs:label>Turkish Police</rdfs:label>
+    <netowl:Entity.Organization.Government..name>Turkish Police</netowl:Entity.Organization.Government..name>
+  </netowl:Entity.Organization.Government>
+
+  <netowl:Entity.Place.Other rdf:ID='id-5'>
+    <rdfs:label>North Syrias</rdfs:label>
+    <netowl:Entity.Place.Other..name>North Syrias</netowl:Entity.Place.Other..name>
+    <netowl:Entity.Place.Other..fips_10_4_country>bm</netowl:Entity.Place.Other..fips_10_4_country>
+    <netowl:Entity.Place.Other..iso_3166_1_country>mm</netowl:Entity.Place.Other..iso_3166_1_country>
+    <netowl:Entity.Place.Other..country>burma</netowl:Entity.Place.Other..country>
+    <netowl:Entity.Place.Other..province>yangon</netowl:Entity.Place.Other..province>
+    <netowl:Entity.Place.Other..geocode_confidence>0.1461</netowl:Entity.Place.Other..geocode_confidence>
+    <netowl:Entity.Place.Other..latitude>16.7689</netowl:Entity.Place.Other..latitude>
+    <netowl:Entity.Place.Other..longitude>96.245</netowl:Entity.Place.Other..longitude>
+  </netowl:Entity.Place.Other>
+
+  <netowl:Entity.Place.Region rdf:ID='id-7'>
+    <rdfs:label>Kurdish</rdfs:label>
+    <netowl:Entity.Place.Region..name>Kurdish</netowl:Entity.Place.Region..name>
+  </netowl:Entity.Place.Region>
+
+</rdf:RDF>

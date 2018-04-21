@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-1'>
+    <rdfs:label>@EndiZentarmi</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@EndiZentarmi</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Terrorist rdf:ID='id-3'>
+    <rdfs:label>ISIS</rdfs:label>
+    <netowl:Entity.Organization.Terrorist..name>ISIS</netowl:Entity.Organization.Terrorist..name>
+    <netowl:Event.Conflict.Attack_target..target..reverse rdf:resource='#id-11'/>
+  </netowl:Entity.Organization.Terrorist>
+
+  <netowl:Entity.Person rdf:ID='id-5'>
+    <rdfs:label>the heroes who fought against ISIS</rdfs:label>
+    <netowl:Entity.Person..descriptor>The Kurds</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..descriptor>the heroes who fought against ISIS</netowl:Entity.Person..descriptor>
+    <netowl:Event.Conflict.Attack_target..attacker..reverse rdf:resource='#id-11'/>
+  </netowl:Entity.Person>
+
+  <netowl:Event.Conflict.Attack_target rdf:ID='id-11'>
+    <rdfs:label>fought</rdfs:label>
+    <netowl:Event.Conflict.Attack_target..predicate>fought</netowl:Event.Conflict.Attack_target..predicate>
+    <netowl:Event.Conflict.Attack_target..tense>past</netowl:Event.Conflict.Attack_target..tense>
+    <netowl:Event.Conflict.Attack_target..attacker rdf:resource='#id-5'/>
+    <netowl:Event.Conflict.Attack_target..target rdf:resource='#id-3'/>
+  </netowl:Event.Conflict.Attack_target>
+
+</rdf:RDF>

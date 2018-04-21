@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/9Z7P1ntIdU</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/9Z7P1ntIdU</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Organization.Military rdf:ID='id-3'>
+    <rdfs:label>jihadist militias</rdfs:label>
+    <netowl:Entity.Organization.Military..descriptor>jihadist militias</netowl:Entity.Organization.Military..descriptor>
+    <netowl:Event.Political.Hold_meeting..entity..reverse rdf:resource='#id-11'/>
+  </netowl:Entity.Organization.Military>
+
+  <netowl:Entity.Person rdf:ID='id-5'>
+    <rdfs:label>representatives of the Turkish state</rdfs:label>
+    <netowl:Entity.Person..descriptor>representatives of the Turkish state</netowl:Entity.Person..descriptor>
+    <netowl:Event.Political.Hold_meeting..entity..reverse rdf:resource='#id-11'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.City rdf:ID='id-7'>
+    <rdfs:label>Izmir</rdfs:label>
+    <netowl:Entity.Place.City..name>Izmir</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>tu</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>tr</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>turkey</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>izmir</netowl:Entity.Place.City..province>
+    <netowl:Event.Political.Hold_meeting..place..reverse rdf:resource='#id-11'/>
+    <netowl:Entity.Place.City..geocode_confidence>0.9662</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>38.4127</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>27.1384</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-9'>
+    <rdfs:label>Turkish</rdfs:label>
+    <netowl:Entity.Place.Country..name>Turkish</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Event.Political.Hold_meeting rdf:ID='id-11'>
+    <rdfs:label>was held</rdfs:label>
+    <netowl:Event.Political.Hold_meeting..predicate>was held</netowl:Event.Political.Hold_meeting..predicate>
+    <netowl:Event.Political.Hold_meeting..tense>past</netowl:Event.Political.Hold_meeting..tense>
+    <netowl:Event.Political.Hold_meeting..entity rdf:resource='#id-3'/>
+    <netowl:Event.Political.Hold_meeting..entity rdf:resource='#id-5'/>
+    <netowl:Event.Political.Hold_meeting..place rdf:resource='#id-7'/>
+  </netowl:Event.Political.Hold_meeting>
+
+</rdf:RDF>

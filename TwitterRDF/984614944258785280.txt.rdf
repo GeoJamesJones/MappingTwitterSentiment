@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/FtbHuFwiEJ</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/FtbHuFwiEJ</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>AFRIN</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>AFRIN</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>BLM</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>BLM</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>CorpMedia</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>CorpMedia</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-9'>
+    <rdfs:label>Humanity</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Humanity</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-11'>
+    <rdfs:label>Idiocracy</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Idiocracy</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-13'>
+    <rdfs:label>MegaBanks</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>MegaBanks</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-15'>
+    <rdfs:label>Occupy</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Occupy</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-17'>
+    <rdfs:label>Oligarchs</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Oligarchs</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-19'>
+    <rdfs:label>SDF</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>SDF</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-21'>
+    <rdfs:label>Union</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Union</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+</rdf:RDF>

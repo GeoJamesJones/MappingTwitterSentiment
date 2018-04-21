@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/DzsWLUWOuE</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/DzsWLUWOuE</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-3'>
+    <rdfs:label>@Hana_For_Kurd</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@Hana_For_Kurd</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-5'>
+    <rdfs:label>@MashaAndWolf</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@MashaAndWolf</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Company rdf:ID='id-7'>
+    <rdfs:label>FSA cos</rdfs:label>
+    <netowl:Entity.Organization.Company..name>FSA cos</netowl:Entity.Organization.Company..name>
+    <netowl:Entity.Organization.Company..industry>other</netowl:Entity.Organization.Company..industry>
+  </netowl:Entity.Organization.Company>
+
+</rdf:RDF>

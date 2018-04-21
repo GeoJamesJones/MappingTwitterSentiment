@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-1'>
+    <rdfs:label>@SherM_BRP</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@SherM_BRP</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Other rdf:ID='id-3'>
+    <rdfs:label>BRP</rdfs:label>
+    <netowl:Entity.Organization.Other..name>BRP</netowl:Entity.Organization.Other..name>
+  </netowl:Entity.Organization.Other>
+
+  <netowl:Entity.Place.City rdf:ID='id-5'>
+    <rdfs:label>Chemnitz</rdfs:label>
+    <netowl:Entity.Place.City..name>Chemnitz</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..descriptor>German city</netowl:Entity.Place.City..descriptor>
+    <netowl:Entity.Place.City..fips_10_4_country>gm</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>de</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>germany</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>saxony</netowl:Entity.Place.City..province>
+    <netowl:Link.Place.Place_parent..place..reverse rdf:resource='#id-10'/>
+    <netowl:Entity.Place.City..geocode_confidence>0.7492</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>50.8357</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>12.9292</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-8'>
+    <rdfs:label>German</rdfs:label>
+    <netowl:Entity.Place.Country..name>German</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>gm</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>de</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>germany</netowl:Entity.Place.Country..country>
+    <netowl:Link.Place.Place_parent..parent..reverse rdf:resource='#id-10'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>51</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>9</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Link.Place.Place_parent rdf:ID='id-10'>
+    <netowl:Link.Place.Place_parent..place rdf:resource='#id-5'/>
+    <netowl:Link.Place.Place_parent..parent rdf:resource='#id-8'/>
+  </netowl:Link.Place.Place_parent>
+
+</rdf:RDF>

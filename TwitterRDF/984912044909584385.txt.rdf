@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-1'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Derek</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Derek</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>Malikiya</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Malikiya</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-7'>
+    <rdfs:label>@asonetwork</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@asonetwork</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Person rdf:ID='id-9'>
+    <rdfs:label>Children</rdfs:label>
+    <netowl:Entity.Person..descriptor>Children</netowl:Entity.Person..descriptor>
+    <netowl:Event.Transaction.Travel..person..reverse rdf:resource='#id-17'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-12'>
+    <rdfs:label>Derek</rdfs:label>
+    <netowl:Entity.Person..name>Derek</netowl:Entity.Person..name>
+    <netowl:Entity.Person..firstname>derek</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.City rdf:ID='id-14'>
+    <rdfs:label>Swedek</rdfs:label>
+    <netowl:Entity.Place.City..name>Swedek</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..descriptor>the village of Swedek</netowl:Entity.Place.City..descriptor>
+    <netowl:Entity.Place.City..fips_10_4_country>bm</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>mm</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>burma</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>magway</netowl:Entity.Place.City..province>
+    <netowl:Event.Transaction.Travel..to_place..reverse rdf:resource='#id-17'/>
+    <netowl:Entity.Place.City..geocode_confidence>0.5</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>20.6477</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>94.486</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Event.Transaction.Travel rdf:ID='id-17'>
+    <rdfs:label>to flee</rdfs:label>
+    <netowl:Event.Transaction.Travel..predicate>to flee</netowl:Event.Transaction.Travel..predicate>
+    <netowl:Event.Transaction.Travel..person rdf:resource='#id-9'/>
+    <netowl:Event.Transaction.Travel..to_place rdf:resource='#id-14'/>
+  </netowl:Event.Transaction.Travel>
+
+</rdf:RDF>

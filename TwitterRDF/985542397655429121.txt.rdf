@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/I31SoNLp7b</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/I31SoNLp7b</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Artifact.Weapon.Projectile rdf:ID='id-3'>
+    <rdfs:label>a single bullet</rdfs:label>
+    <netowl:Entity.Artifact.Weapon.Projectile..descriptor>a single bullet</netowl:Entity.Artifact.Weapon.Projectile..descriptor>
+    <netowl:Event.Conflict.Fire_weapon..weapon..reverse rdf:resource='#id-11'/>
+  </netowl:Entity.Artifact.Weapon.Projectile>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-7'>
+    <rdfs:label>@erenerdemnet</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@erenerdemnet</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-9'>
+    <rdfs:label>@realDonaldTrump</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@realDonaldTrump</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Event.Conflict.Fire_weapon rdf:ID='id-11'>
+    <rdfs:label>been fired</rdfs:label>
+    <netowl:Event.Conflict.Fire_weapon..predicate>been fired</netowl:Event.Conflict.Fire_weapon..predicate>
+    <netowl:Event.Conflict.Fire_weapon..weapon rdf:resource='#id-3'/>
+  </netowl:Event.Conflict.Fire_weapon>
+
+</rdf:RDF>

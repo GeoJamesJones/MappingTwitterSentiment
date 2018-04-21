@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/xYVWPXdsqy</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/xYVWPXdsqy</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>EU</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>EU</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>PKK</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>PKK</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-9'>
+    <rdfs:label>SDG</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>SDG</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-11'>
+    <rdfs:label>YPG</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>YPG</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Organization.Military rdf:ID='id-13'>
+    <rdfs:label>Turkish Army</rdfs:label>
+    <netowl:Entity.Organization.Military..name>Turkish Army</netowl:Entity.Organization.Military..name>
+  </netowl:Entity.Organization.Military>
+
+  <netowl:Entity.Organization.Organization rdf:ID='id-15'>
+    <rdfs:label>EU</rdfs:label>
+    <netowl:Entity.Organization.Organization..name>EU</netowl:Entity.Organization.Organization..name>
+  </netowl:Entity.Organization.Organization>
+
+  <netowl:Entity.Organization.Terrorist rdf:ID='id-17'>
+    <rdfs:label>PKK</rdfs:label>
+    <netowl:Entity.Organization.Terrorist..name>PKK</netowl:Entity.Organization.Terrorist..name>
+  </netowl:Entity.Organization.Terrorist>
+
+  <netowl:Entity.Organization.Terrorist rdf:ID='id-19'>
+    <rdfs:label>YPG</rdfs:label>
+    <netowl:Entity.Organization.Terrorist..name>YPG</netowl:Entity.Organization.Terrorist..name>
+  </netowl:Entity.Organization.Terrorist>
+
+</rdf:RDF>

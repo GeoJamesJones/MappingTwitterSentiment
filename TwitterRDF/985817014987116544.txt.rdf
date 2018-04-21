@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/d4mapVl6zG</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/d4mapVl6zG</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Sweden</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Sweden</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>YPG</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>YPG</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>YPJ</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>YPJ</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Organization.Government rdf:ID='id-9'>
+    <rdfs:label>Young Left’s Executive Council</rdfs:label>
+    <netowl:Entity.Organization.Government..name>Young Left’s Executive Council</netowl:Entity.Organization.Government..name>
+  </netowl:Entity.Organization.Government>
+
+  <netowl:Entity.Organization.Other rdf:ID='id-11'>
+    <rdfs:label>Party</rdfs:label>
+    <netowl:Entity.Organization.Other..name>Party</netowl:Entity.Organization.Other..name>
+    <netowl:Entity.Organization.Other..descriptor>Sweden’s Left Party youth organization</netowl:Entity.Organization.Other..descriptor>
+    <netowl:Link.Organization.Org_nationality..organization..reverse rdf:resource='#id-18'/>
+  </netowl:Entity.Organization.Other>
+
+  <netowl:Entity.Organization.Terrorist rdf:ID='id-14'>
+    <rdfs:label>YPG</rdfs:label>
+    <netowl:Entity.Organization.Terrorist..name>YPG</netowl:Entity.Organization.Terrorist..name>
+  </netowl:Entity.Organization.Terrorist>
+
+  <netowl:Entity.Place.Country rdf:ID='id-16'>
+    <rdfs:label>Sweden</rdfs:label>
+    <netowl:Entity.Place.Country..name>Sweden</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>sw</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>se</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>sweden</netowl:Entity.Place.Country..country>
+    <netowl:Link.Organization.Org_nationality..country..reverse rdf:resource='#id-18'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>62</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>15</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Link.Organization.Org_nationality rdf:ID='id-18'>
+    <netowl:Link.Organization.Org_nationality..organization rdf:resource='#id-11'/>
+    <netowl:Link.Organization.Org_nationality..country rdf:resource='#id-16'/>
+  </netowl:Link.Organization.Org_nationality>
+
+</rdf:RDF>

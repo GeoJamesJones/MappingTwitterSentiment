@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/7fVcxPGzv6</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/7fVcxPGzv6</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Artifact.Weapon.Explosive rdf:ID='id-3'>
+    <rdfs:label>a mine</rdfs:label>
+    <netowl:Entity.Artifact.Weapon.Explosive..descriptor>a mine</netowl:Entity.Artifact.Weapon.Explosive..descriptor>
+  </netowl:Entity.Artifact.Weapon.Explosive>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>Aleppo</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Aleppo</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>Shehba</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Shehba</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Person rdf:ID='id-9'>
+    <rdfs:label>A group of people</rdfs:label>
+    <netowl:Entity.Person..descriptor>A group of people</netowl:Entity.Person..descriptor>
+    <netowl:Event.Transaction.Travel..person..reverse rdf:resource='#id-15'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.City rdf:ID='id-11'>
+    <rdfs:label>Aleppo</rdfs:label>
+    <netowl:Entity.Place.City..name>Aleppo</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>sy</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>sy</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>syria</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>halab</netowl:Entity.Place.City..province>
+    <netowl:Event.Transaction.Travel..to_place..reverse rdf:resource='#id-15'/>
+    <netowl:Entity.Place.City..geocode_confidence>0.7393</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>36.2012</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>37.1612</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.City rdf:ID='id-13'>
+    <rdfs:label>Shehba</rdfs:label>
+    <netowl:Entity.Place.City..name>Shehba</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>sy</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>sy</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>syria</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>rif dimashq</netowl:Entity.Place.City..province>
+    <netowl:Event.Transaction.Travel..from_place..reverse rdf:resource='#id-15'/>
+    <netowl:Entity.Place.City..geocode_confidence>0.1776</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>33.4482</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>36.3902</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Event.Transaction.Travel rdf:ID='id-15'>
+    <rdfs:label>moving</rdfs:label>
+    <netowl:Event.Transaction.Travel..predicate>moving</netowl:Event.Transaction.Travel..predicate>
+    <netowl:Event.Transaction.Travel..person rdf:resource='#id-9'/>
+    <netowl:Event.Transaction.Travel..to_place rdf:resource='#id-11'/>
+    <netowl:Event.Transaction.Travel..from_place rdf:resource='#id-13'/>
+  </netowl:Event.Transaction.Travel>
+
+</rdf:RDF>

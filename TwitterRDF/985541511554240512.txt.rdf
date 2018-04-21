@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/Od3aXeXmVx</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/Od3aXeXmVx</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Artifact.Vehicle.Other rdf:ID='id-3'>
+    <rdfs:label>Erdogan’s vehicle</rdfs:label>
+    <netowl:Entity.Artifact.Vehicle.Other..descriptor>Erdogan’s vehicle</netowl:Entity.Artifact.Vehicle.Other..descriptor>
+    <netowl:Link.Artifact.Artifact_owner..artifact..reverse rdf:resource='#id-11'/>
+  </netowl:Entity.Artifact.Vehicle.Other>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>Erdogan</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Erdogan</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Person rdf:ID='id-9'>
+    <rdfs:label>Erdogan</rdfs:label>
+    <netowl:Entity.Person..name>Erdogan</netowl:Entity.Person..name>
+    <netowl:Entity.Person..lastname>erdogan</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+    <netowl:Link.Artifact.Artifact_owner..owner..reverse rdf:resource='#id-11'/>
+  </netowl:Entity.Person>
+
+  <netowl:Link.Artifact.Artifact_owner rdf:ID='id-11'>
+    <netowl:Link.Artifact.Artifact_owner..artifact rdf:resource='#id-3'/>
+    <netowl:Link.Artifact.Artifact_owner..owner rdf:resource='#id-9'/>
+  </netowl:Link.Artifact.Artifact_owner>
+
+</rdf:RDF>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/Sv5kem56D4</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/Sv5kem56D4</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Organization.Military rdf:ID='id-3'>
+    <rdfs:label>Eastern Army</rdfs:label>
+    <netowl:Entity.Organization.Military..name>Eastern Army</netowl:Entity.Organization.Military..name>
+    <netowl:Entity.Organization.Military..descriptor>The Turkish-backed Eastern Army faction</netowl:Entity.Organization.Military..descriptor>
+    <netowl:Event.Law.Arrest..entity..reverse rdf:resource='#id-15'/>
+  </netowl:Entity.Organization.Military>
+
+  <netowl:Entity.Person rdf:ID='id-6'>
+    <rdfs:label>Farah al-Din Muhammad Osman</rdfs:label>
+    <netowl:Entity.Person..name>Farah al-Din Muhammad Osman</netowl:Entity.Person..name>
+    <netowl:Entity.Person..firstname>farah</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>al_-_din_muhammad_osman</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>female</netowl:Entity.Person..gender>
+    <netowl:Link.Person.Person_transient_in..person..reverse rdf:resource='#id-13'/>
+    <netowl:Event.Law.Arrest..person_arrested..reverse rdf:resource='#id-15'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.Country rdf:ID='id-8'>
+    <rdfs:label>Turkish</rdfs:label>
+    <netowl:Entity.Place.Country..name>Turkish</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.District rdf:ID='id-10'>
+    <rdfs:label>Jendiris</rdfs:label>
+    <netowl:Entity.Place.District..name>Jendiris</netowl:Entity.Place.District..name>
+    <netowl:Entity.Place.District..descriptor>the Jendiris district</netowl:Entity.Place.District..descriptor>
+    <netowl:Link.Person.Person_transient_in..place..reverse rdf:resource='#id-13'/>
+    <netowl:Event.Law.Arrest..place..reverse rdf:resource='#id-15'/>
+  </netowl:Entity.Place.District>
+
+  <netowl:Link.Person.Person_transient_in rdf:ID='id-13'>
+    <netowl:Link.Person.Person_transient_in..person rdf:resource='#id-6'/>
+    <netowl:Link.Person.Person_transient_in..place rdf:resource='#id-10'/>
+  </netowl:Link.Person.Person_transient_in>
+
+  <netowl:Event.Law.Arrest rdf:ID='id-15'>
+    <rdfs:label>arrests</rdfs:label>
+    <netowl:Event.Law.Arrest..predicate>arrests</netowl:Event.Law.Arrest..predicate>
+    <netowl:Event.Law.Arrest..tense>present</netowl:Event.Law.Arrest..tense>
+    <netowl:Event.Law.Arrest..entity rdf:resource='#id-3'/>
+    <netowl:Event.Law.Arrest..person_arrested rdf:resource='#id-6'/>
+    <netowl:Event.Law.Arrest..place rdf:resource='#id-10'/>
+  </netowl:Event.Law.Arrest>
+
+</rdf:RDF>

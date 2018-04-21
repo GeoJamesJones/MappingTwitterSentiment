@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/brkXD1wGWG</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/brkXD1wGWG</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Kurds</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Kurds</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>syria</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>syria</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-7'>
+    <rdfs:label>@FoxNews</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@FoxNews</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-9'>
+    <rdfs:label>@RepEdRoyce</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@RepEdRoyce</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Title rdf:ID='id-11'>
+    <rdfs:label>Chairman</rdfs:label>
+    <netowl:Entity.Concept.Title..name>Chairman</netowl:Entity.Concept.Title..name>
+    <netowl:Link.Person.Person_title..title..reverse rdf:resource='#id-18'/>
+  </netowl:Entity.Concept.Title>
+
+  <netowl:Entity.Person rdf:ID='id-13'>
+    <rdfs:label>Royce</rdfs:label>
+    <netowl:Entity.Person..name>Royce</netowl:Entity.Person..name>
+    <netowl:Entity.Person..descriptor>Dear Chairman</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..lastname>royce</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..age rdf:resource='#id-16'/>
+    <netowl:Link.Person.Person_title..person..reverse rdf:resource='#id-18'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Time.Age rdf:ID='id-16'>
+    <rdfs:label>1</rdfs:label>
+    <netowl:Entity.Time.Age..name>1</netowl:Entity.Time.Age..name>
+    <netowl:Entity.Person..age..reverse rdf:resource='#id-13'/>
+  </netowl:Entity.Time.Age>
+
+  <netowl:Link.Person.Person_title rdf:ID='id-18'>
+    <netowl:Link.Person.Person_title..person rdf:resource='#id-13'/>
+    <netowl:Link.Person.Person_title..title rdf:resource='#id-11'/>
+  </netowl:Link.Person.Person_title>
+
+</rdf:RDF>

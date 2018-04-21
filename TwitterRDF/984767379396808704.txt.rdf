@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/04IAthXO0K</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/04IAthXO0K</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Moscow</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Moscow</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>Russian</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Russian</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Organization.Government rdf:ID='id-7'>
+    <rdfs:label>Foreign</rdfs:label>
+    <netowl:Entity.Organization.Government..name>Foreign</netowl:Entity.Organization.Government..name>
+    <netowl:Link.Organization.Org_nationality..organization..reverse rdf:resource='#id-16'/>
+    <netowl:Link.Person.Person_affiliation..organization..reverse rdf:resource='#id-18'/>
+  </netowl:Entity.Organization.Government>
+
+  <netowl:Entity.Person rdf:ID='id-9'>
+    <rdfs:label>Sergei Lavrov</rdfs:label>
+    <netowl:Entity.Person..name>Sergei Lavrov</netowl:Entity.Person..name>
+    <netowl:Entity.Person..descriptor>Russian Foreign Minister</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..firstname>sergei</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>lavrov</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+    <netowl:Link.Person.Person_affiliation..person..reverse rdf:resource='#id-18'/>
+    <netowl:Link.Person.Person_nationality..person..reverse rdf:resource='#id-20'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.City rdf:ID='id-12'>
+    <rdfs:label>Moscow</rdfs:label>
+    <netowl:Entity.Place.City..name>Moscow</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>rs</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>ru</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>russia</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>moskva</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.5275</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>55.7522</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>37.6156</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-14'>
+    <rdfs:label>Russian</rdfs:label>
+    <netowl:Entity.Place.Country..name>Russian</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>rs</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>ru</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>russia</netowl:Entity.Place.Country..country>
+    <netowl:Link.Organization.Org_nationality..country..reverse rdf:resource='#id-16'/>
+    <netowl:Link.Person.Person_nationality..country..reverse rdf:resource='#id-20'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>60</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>100</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Link.Organization.Org_nationality rdf:ID='id-16'>
+    <netowl:Link.Organization.Org_nationality..organization rdf:resource='#id-7'/>
+    <netowl:Link.Organization.Org_nationality..country rdf:resource='#id-14'/>
+  </netowl:Link.Organization.Org_nationality>
+
+  <netowl:Link.Person.Person_affiliation rdf:ID='id-18'>
+    <netowl:Link.Person.Person_affiliation..position>Russian Foreign Minister</netowl:Link.Person.Person_affiliation..position>
+    <netowl:Link.Person.Person_affiliation..person rdf:resource='#id-9'/>
+    <netowl:Link.Person.Person_affiliation..organization rdf:resource='#id-7'/>
+  </netowl:Link.Person.Person_affiliation>
+
+  <netowl:Link.Person.Person_nationality rdf:ID='id-20'>
+    <netowl:Link.Person.Person_nationality..person rdf:resource='#id-9'/>
+    <netowl:Link.Person.Person_nationality..country rdf:resource='#id-14'/>
+  </netowl:Link.Person.Person_nationality>
+
+</rdf:RDF>

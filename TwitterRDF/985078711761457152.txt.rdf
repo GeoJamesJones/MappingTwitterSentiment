@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/rwgQD6rXBP</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/rwgQD6rXBP</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>Aleppo</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Aleppo</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>Erdogan</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Erdogan</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-9'>
+    <rdfs:label>Idlib</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Idlib</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-11'>
+    <rdfs:label>Kurdistan</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Kurdistan</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-13'>
+    <rdfs:label>NATO</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>NATO</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-15'>
+    <rdfs:label>Rojava</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Rojava</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-17'>
+    <rdfs:label>Syria</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Syria</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-19'>
+    <rdfs:label>Turkey</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Turkey</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Organization.Military rdf:ID='id-21'>
+    <rdfs:label>NATO</rdfs:label>
+    <netowl:Entity.Organization.Military..name>NATO</netowl:Entity.Organization.Military..name>
+  </netowl:Entity.Organization.Military>
+
+  <netowl:Entity.Person rdf:ID='id-23'>
+    <rdfs:label>Erdogan</rdfs:label>
+    <netowl:Entity.Person..name>Erdogan</netowl:Entity.Person..name>
+    <netowl:Entity.Person..lastname>erdogan</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.City rdf:ID='id-25'>
+    <rdfs:label>Aleppo</rdfs:label>
+    <netowl:Entity.Place.City..name>Aleppo</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>sy</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>sy</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>syria</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>halab</netowl:Entity.Place.City..province>
+    <netowl:Link.Place.Place_parent..place..reverse rdf:resource='#id-41'/>
+    <netowl:Entity.Place.City..geocode_confidence>0.9684</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>36.2012</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>37.1612</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.City rdf:ID='id-27'>
+    <rdfs:label>Idlib</rdfs:label>
+    <netowl:Entity.Place.City..name>Idlib</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>sy</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>sy</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>syria</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>idlib</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.9464</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>35.9306</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>36.6339</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-29'>
+    <rdfs:label>Syria</rdfs:label>
+    <netowl:Entity.Place.Country..name>Syria</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>sy</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>sy</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>syria</netowl:Entity.Place.Country..country>
+    <netowl:Link.Place.Place_parent..parent..reverse rdf:resource='#id-41'/>
+    <netowl:Event.Conflict.Attack_target..target..reverse rdf:resource='#id-43'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>35</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>38</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Country rdf:ID='id-32'>
+    <rdfs:label>Turkey</rdfs:label>
+    <netowl:Entity.Place.Country..name>Turkey</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Country rdf:ID='id-35'>
+    <rdfs:label>U.K.</rdfs:label>
+    <netowl:Entity.Place.Country..name>U.K.</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>uk</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>gb</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>united kingdom</netowl:Entity.Place.Country..country>
+    <netowl:Event.Conflict.Attack_target..attacker..reverse rdf:resource='#id-43'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>54</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>-2</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Country rdf:ID='id-37'>
+    <rdfs:label>U.S.</rdfs:label>
+    <netowl:Entity.Place.Country..name>U.S.</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>us</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>us</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>united states</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>38</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>-97</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Region rdf:ID='id-39'>
+    <rdfs:label>Kurdistan</rdfs:label>
+    <netowl:Entity.Place.Region..name>Kurdistan</netowl:Entity.Place.Region..name>
+  </netowl:Entity.Place.Region>
+
+  <netowl:Link.Place.Place_parent rdf:ID='id-41'>
+    <netowl:Link.Place.Place_parent..place rdf:resource='#id-25'/>
+    <netowl:Link.Place.Place_parent..parent rdf:resource='#id-29'/>
+  </netowl:Link.Place.Place_parent>
+
+  <netowl:Event.Conflict.Attack_target rdf:ID='id-43'>
+    <rdfs:label>U.K. attack</rdfs:label>
+    <netowl:Event.Conflict.Attack_target..predicate>U.K. attack</netowl:Event.Conflict.Attack_target..predicate>
+    <netowl:Event.Conflict.Attack_target..attacker rdf:resource='#id-35'/>
+    <netowl:Event.Conflict.Attack_target..target rdf:resource='#id-29'/>
+  </netowl:Event.Conflict.Attack_target>
+
+</rdf:RDF>

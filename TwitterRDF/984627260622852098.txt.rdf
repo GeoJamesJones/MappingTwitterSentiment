@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/P946WLhUNE</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/P946WLhUNE</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Organization.Government rdf:ID='id-5'>
+    <rdfs:label>State</rdfs:label>
+    <netowl:Entity.Organization.Government..name>State</netowl:Entity.Organization.Government..name>
+  </netowl:Entity.Organization.Government>
+
+  <netowl:Entity.Organization.Terrorist rdf:ID='id-7'>
+    <rdfs:label>Islamic State</rdfs:label>
+    <netowl:Entity.Organization.Terrorist..name>Islamic State</netowl:Entity.Organization.Terrorist..name>
+    <netowl:Event.Conflict.Attack_target..target..reverse rdf:resource='#id-17'/>
+  </netowl:Entity.Organization.Terrorist>
+
+  <netowl:Entity.Place.Country rdf:ID='id-9'>
+    <rdfs:label>Kurdish partners</rdfs:label>
+    <netowl:Entity.Place.Country..descriptor>Kurdish partners</netowl:Entity.Place.Country..descriptor>
+    <netowl:Event.Conflict.Attack_target..attacker..reverse rdf:resource='#id-17'/>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Country rdf:ID='id-11'>
+    <rdfs:label>Turkey</rdfs:label>
+    <netowl:Entity.Place.Country..name>Turkey</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Country rdf:ID='id-13'>
+    <rdfs:label>US</rdfs:label>
+    <netowl:Entity.Place.Country..name>US</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>us</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>us</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>united states</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>38</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>-97</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Region rdf:ID='id-15'>
+    <rdfs:label>Kurdish</rdfs:label>
+    <netowl:Entity.Place.Region..name>Kurdish</netowl:Entity.Place.Region..name>
+  </netowl:Entity.Place.Region>
+
+  <netowl:Event.Conflict.Attack_target rdf:ID='id-17'>
+    <rdfs:label>fighting</rdfs:label>
+    <netowl:Event.Conflict.Attack_target..predicate>fighting</netowl:Event.Conflict.Attack_target..predicate>
+    <netowl:Event.Conflict.Attack_target..attacker rdf:resource='#id-9'/>
+    <netowl:Event.Conflict.Attack_target..target rdf:resource='#id-7'/>
+  </netowl:Event.Conflict.Attack_target>
+
+</rdf:RDF>

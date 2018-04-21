@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/WEU1Swbyl4</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/WEU1Swbyl4</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Rojava</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Rojava</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Place.City rdf:ID='id-5'>
+    <rdfs:label>Rojava</rdfs:label>
+    <netowl:Entity.Place.City..name>Rojava</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>en</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>ee</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>estonia</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>parnumaa</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.0625</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>58.6175</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>24.9819</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+</rdf:RDF>

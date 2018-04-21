@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Artifact.Vehicle.Ground rdf:ID='id-1'>
+    <rdfs:label>a bus carrying their family</rdfs:label>
+    <netowl:Entity.Artifact.Vehicle.Ground..descriptor>a bus carrying their family</netowl:Entity.Artifact.Vehicle.Ground..descriptor>
+  </netowl:Entity.Artifact.Vehicle.Ground>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-3'>
+    <rdfs:label>@nre6172</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@nre6172</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Person rdf:ID='id-5'>
+    <rdfs:label>Nazifa Mustafa</rdfs:label>
+    <netowl:Entity.Person..name>Nazifa Mustafa</netowl:Entity.Person..name>
+    <netowl:Entity.Person..firstname>nazifa</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>mustafa</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..age rdf:resource='#id-7'/>
+    <netowl:Event.Conflict.Injure..victim..reverse rdf:resource='#id-11'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Time.Age rdf:ID='id-7'>
+    <rdfs:label>19 years old</rdfs:label>
+    <netowl:Entity.Time.Age..name>19 years old</netowl:Entity.Time.Age..name>
+    <netowl:Entity.Person..age..reverse rdf:resource='#id-5'/>
+  </netowl:Entity.Time.Age>
+
+  <netowl:Entity.Time.Date rdf:ID='id-9'>
+    <rdfs:label>March 2</rdfs:label>
+    <netowl:Entity.Time.Date..name>March 2</netowl:Entity.Time.Date..name>
+    <netowl:Entity.Time.Date..day>02</netowl:Entity.Time.Date..day>
+    <netowl:Entity.Time.Date..month>03</netowl:Entity.Time.Date..month>
+    <netowl:Event.Conflict.Injure..time..reverse rdf:resource='#id-11'/>
+  </netowl:Entity.Time.Date>
+
+  <netowl:Event.Conflict.Injure rdf:ID='id-11'>
+    <rdfs:label>were injured</rdfs:label>
+    <netowl:Event.Conflict.Injure..predicate>were injured</netowl:Event.Conflict.Injure..predicate>
+    <netowl:Event.Conflict.Injure..tense>past</netowl:Event.Conflict.Injure..tense>
+    <netowl:Event.Conflict.Injure..victim rdf:resource='#id-5'/>
+    <netowl:Event.Conflict.Injure..time rdf:resource='#id-9'/>
+  </netowl:Event.Conflict.Injure>
+
+</rdf:RDF>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/1zgdm2B07z</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/1zgdm2B07z</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Address.Url rdf:ID='id-3'>
+    <rdfs:label>https://t.co/2WIciePUvN</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/2WIciePUvN</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>Security</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Security</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-9'>
+    <rdfs:label>@riskmap_</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@riskmap_</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Military rdf:ID='id-11'>
+    <rdfs:label>Kurd Militia</rdfs:label>
+    <netowl:Entity.Organization.Military..name>Kurd Militia</netowl:Entity.Organization.Military..name>
+    <netowl:Event.Political.Topple..toppled_entity..reverse rdf:resource='#id-13'/>
+  </netowl:Entity.Organization.Military>
+
+  <netowl:Event.Political.Topple rdf:ID='id-13'>
+    <rdfs:label>Ousted</rdfs:label>
+    <netowl:Event.Political.Topple..predicate>Ousted</netowl:Event.Political.Topple..predicate>
+    <netowl:Event.Political.Topple..tense>past</netowl:Event.Political.Topple..tense>
+    <netowl:Event.Political.Topple..toppled_entity rdf:resource='#id-11'/>
+  </netowl:Event.Political.Topple>
+
+</rdf:RDF>

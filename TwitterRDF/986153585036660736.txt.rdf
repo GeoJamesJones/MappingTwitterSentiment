@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-1'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>BreakSilenceOnAfrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>BreakSilenceOnAfrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>Efrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Efrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>WomenRiseUpForAfrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>WomenRiseUpForAfrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-9'>
+    <rdfs:label>@ICafrinresist</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@ICafrinresist</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Time.Date rdf:ID='id-11'>
+    <rdfs:label>April 25</rdfs:label>
+    <netowl:Entity.Time.Date..name>April 25</netowl:Entity.Time.Date..name>
+    <netowl:Entity.Time.Date..day>25</netowl:Entity.Time.Date..day>
+    <netowl:Entity.Time.Date..month>04</netowl:Entity.Time.Date..month>
+    <netowl:Entity.Time.Date..start..reverse rdf:resource='#id-13'/>
+  </netowl:Entity.Time.Date>
+
+  <netowl:Entity.Time.Date rdf:ID='id-13'>
+    <rdfs:label>April 25- June 2</rdfs:label>
+    <netowl:Entity.Time.Date..name>April 25- June 2</netowl:Entity.Time.Date..name>
+    <netowl:Entity.Time.Date..start rdf:resource='#id-11'/>
+    <netowl:Entity.Time.Date..end rdf:resource='#id-15'/>
+  </netowl:Entity.Time.Date>
+
+  <netowl:Entity.Time.Date rdf:ID='id-15'>
+    <rdfs:label>June 2</rdfs:label>
+    <netowl:Entity.Time.Date..name>June 2</netowl:Entity.Time.Date..name>
+    <netowl:Entity.Time.Date..day>02</netowl:Entity.Time.Date..day>
+    <netowl:Entity.Time.Date..month>06</netowl:Entity.Time.Date..month>
+    <netowl:Entity.Time.Date..end..reverse rdf:resource='#id-13'/>
+  </netowl:Entity.Time.Date>
+
+</rdf:RDF>

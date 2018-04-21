@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-1'>
+    <rdfs:label>Afrîn</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrîn</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Rojava</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Rojava</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-5'>
+    <rdfs:label>@TobiasHuch</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@TobiasHuch</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Numeric.Money rdf:ID='id-7'>
+    <rdfs:label>over $60,000</rdfs:label>
+    <netowl:Entity.Numeric.Money..name>over $60,000</netowl:Entity.Numeric.Money..name>
+    <netowl:Entity.Numeric.Money..mod>more_than</netowl:Entity.Numeric.Money..mod>
+    <netowl:Entity.Numeric.Money..norm>60000</netowl:Entity.Numeric.Money..norm>
+    <netowl:Entity.Numeric.Money..currency>usd</netowl:Entity.Numeric.Money..currency>
+    <netowl:Event.Transaction.Raise_money..money..reverse rdf:resource='#id-13'/>
+  </netowl:Entity.Numeric.Money>
+
+  <netowl:Entity.Person rdf:ID='id-9'>
+    <rdfs:label>the people</rdfs:label>
+    <netowl:Entity.Person..descriptor>the people</netowl:Entity.Person..descriptor>
+    <netowl:Event.Transaction.Raise_money..recipient..reverse rdf:resource='#id-13'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.City rdf:ID='id-11'>
+    <rdfs:label>Rojava</rdfs:label>
+    <netowl:Entity.Place.City..name>Rojava</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>en</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>ee</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>estonia</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>parnumaa</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.0625</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>58.6175</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>24.9819</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Event.Transaction.Raise_money rdf:ID='id-13'>
+    <rdfs:label>raised</rdfs:label>
+    <netowl:Event.Transaction.Raise_money..predicate>raised</netowl:Event.Transaction.Raise_money..predicate>
+    <netowl:Event.Transaction.Raise_money..tense>past</netowl:Event.Transaction.Raise_money..tense>
+    <netowl:Event.Transaction.Raise_money..money rdf:resource='#id-7'/>
+    <netowl:Event.Transaction.Raise_money..recipient rdf:resource='#id-9'/>
+  </netowl:Event.Transaction.Raise_money>
+
+</rdf:RDF>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/kHf4PCBWbS</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/kHf4PCBWbS</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Artifact.Weapon.Explosive rdf:ID='id-3'>
+    <rdfs:label>the British-made bombs</rdfs:label>
+    <netowl:Entity.Artifact.Weapon.Explosive..descriptor>Syrian bombs</netowl:Entity.Artifact.Weapon.Explosive..descriptor>
+    <netowl:Entity.Artifact.Weapon.Explosive..descriptor>the British-made bombs</netowl:Entity.Artifact.Weapon.Explosive..descriptor>
+    <netowl:Link.Artifact.Artifact_owner..artifact..reverse rdf:resource='#id-20'/>
+    <netowl:Event.Conflict.Fire_weapon..weapon..reverse rdf:resource='#id-22'/>
+  </netowl:Entity.Artifact.Weapon.Explosive>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-6'>
+    <rdfs:label>Marr</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Marr</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-8'>
+    <rdfs:label>Yemen</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Yemen</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Person rdf:ID='id-10'>
+    <rdfs:label>Boris Johnson</rdfs:label>
+    <netowl:Entity.Person..name>Boris Johnson</netowl:Entity.Person..name>
+    <netowl:Entity.Person..firstname>boris</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>johnson</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-12'>
+    <rdfs:label>civilians</rdfs:label>
+    <netowl:Entity.Person..descriptor>civilians</netowl:Entity.Person..descriptor>
+    <netowl:Event.Conflict.Fire_weapon..target..reverse rdf:resource='#id-22'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.Country rdf:ID='id-14'>
+    <rdfs:label>British</rdfs:label>
+    <netowl:Entity.Place.Country..name>British</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>uk</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>gb</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>united kingdom</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>54</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>-2</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Country rdf:ID='id-16'>
+    <rdfs:label>Syrian</rdfs:label>
+    <netowl:Entity.Place.Country..name>Syrian</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>sy</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>sy</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>syria</netowl:Entity.Place.Country..country>
+    <netowl:Link.Artifact.Artifact_owner..owner..reverse rdf:resource='#id-20'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>35</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>38</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Country rdf:ID='id-18'>
+    <rdfs:label>Yemen</rdfs:label>
+    <netowl:Entity.Place.Country..name>Yemen</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>ym</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>ye</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>yemen</netowl:Entity.Place.Country..country>
+    <netowl:Event.Conflict.Fire_weapon..place..reverse rdf:resource='#id-22'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>15</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>48</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Link.Artifact.Artifact_owner rdf:ID='id-20'>
+    <netowl:Link.Artifact.Artifact_owner..artifact rdf:resource='#id-3'/>
+    <netowl:Link.Artifact.Artifact_owner..owner rdf:resource='#id-16'/>
+  </netowl:Link.Artifact.Artifact_owner>
+
+  <netowl:Event.Conflict.Fire_weapon rdf:ID='id-22'>
+    <rdfs:label>dropped</rdfs:label>
+    <netowl:Event.Conflict.Fire_weapon..predicate>dropped</netowl:Event.Conflict.Fire_weapon..predicate>
+    <netowl:Event.Conflict.Fire_weapon..tense>past</netowl:Event.Conflict.Fire_weapon..tense>
+    <netowl:Event.Conflict.Fire_weapon..weapon rdf:resource='#id-3'/>
+    <netowl:Event.Conflict.Fire_weapon..target rdf:resource='#id-12'/>
+    <netowl:Event.Conflict.Fire_weapon..place rdf:resource='#id-18'/>
+  </netowl:Event.Conflict.Fire_weapon>
+
+</rdf:RDF>

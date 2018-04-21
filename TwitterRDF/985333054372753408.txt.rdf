@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/RZxVty0Nfw</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/RZxVty0Nfw</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Person rdf:ID='id-3'>
+    <rdfs:label>Ann Coul</rdfs:label>
+    <netowl:Entity.Person..name>Ann Coul</netowl:Entity.Person..name>
+    <netowl:Entity.Person..descriptor>anti-immigration activist</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..firstname>ann</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>coul</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>female</netowl:Entity.Person..gender>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-6'>
+    <rdfs:label>Mike Enoch</rdfs:label>
+    <netowl:Entity.Person..name>Mike Enoch</netowl:Entity.Person..name>
+    <netowl:Entity.Person..firstname>mike</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>enoch</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-8'>
+    <rdfs:label>Richard Spencer</rdfs:label>
+    <netowl:Entity.Person..name>Richard Spencer</netowl:Entity.Person..name>
+    <netowl:Entity.Person..descriptor>white supremacist</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..firstname>richard</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>spencer</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+    <netowl:Entity.Person..race>white</netowl:Entity.Person..race>
+    <netowl:Link.Person.Person_transient_in..person..reverse rdf:resource='#id-13'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.Country rdf:ID='id-11'>
+    <rdfs:label>US</rdfs:label>
+    <netowl:Entity.Place.Country..name>US</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>us</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>us</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>united states</netowl:Entity.Place.Country..country>
+    <netowl:Link.Person.Person_transient_in..place..reverse rdf:resource='#id-13'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>38</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>-97</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Link.Person.Person_transient_in rdf:ID='id-13'>
+    <netowl:Link.Person.Person_transient_in..person rdf:resource='#id-8'/>
+    <netowl:Link.Person.Person_transient_in..place rdf:resource='#id-11'/>
+  </netowl:Link.Person.Person_transient_in>
+
+</rdf:RDF>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-1'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Arabic</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Arabic</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>Kirkuk</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Kirkuk</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>Kurdish</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Kurdish</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-9'>
+    <rdfs:label>Turkish</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Turkish</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-11'>
+    <rdfs:label>@cfpierce</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@cfpierce</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Facility rdf:ID='id-13'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Organization.Facility..name>Afrin</netowl:Entity.Organization.Facility..name>
+    <netowl:Entity.Organization.Facility..descriptor>Afrin hospital</netowl:Entity.Organization.Facility..descriptor>
+  </netowl:Entity.Organization.Facility>
+
+  <netowl:Entity.Place.City rdf:ID='id-16'>
+    <rdfs:label>Kirkuk</rdfs:label>
+    <netowl:Entity.Place.City..name>Kirkuk</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>iz</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>iq</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>iraq</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>kirkuk</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.9065</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>35.4681</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>44.3922</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-18'>
+    <rdfs:label>Iraqi</rdfs:label>
+    <netowl:Entity.Place.Country..name>Iraqi</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>iz</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>iq</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>iraq</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>33</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>44</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Country rdf:ID='id-20'>
+    <rdfs:label>Turkish</rdfs:label>
+    <netowl:Entity.Place.Country..name>Turkish</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Event.Conflict.Invade_land..invader..reverse rdf:resource='#id-27'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Region rdf:ID='id-23'>
+    <rdfs:label>Kurdish</rdfs:label>
+    <netowl:Entity.Place.Region..name>Kurdish</netowl:Entity.Place.Region..name>
+  </netowl:Entity.Place.Region>
+
+  <netowl:Entity.Time.Date rdf:ID='id-25'>
+    <rdfs:label>Oct 2017</rdfs:label>
+    <netowl:Entity.Time.Date..name>Oct 2017</netowl:Entity.Time.Date..name>
+    <netowl:Entity.Time.Date..month>10</netowl:Entity.Time.Date..month>
+    <netowl:Entity.Time.Date..year>2017</netowl:Entity.Time.Date..year>
+  </netowl:Entity.Time.Date>
+
+  <netowl:Event.Conflict.Invade_land rdf:ID='id-27'>
+    <rdfs:label>Turkish occupation</rdfs:label>
+    <netowl:Event.Conflict.Invade_land..predicate>Turkish occupation</netowl:Event.Conflict.Invade_land..predicate>
+    <netowl:Event.Conflict.Invade_land..invader rdf:resource='#id-20'/>
+  </netowl:Event.Conflict.Invade_land>
+
+</rdf:RDF>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/n5ye5uBAWF</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/n5ye5uBAWF</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Organization.Government rdf:ID='id-3'>
+    <rdfs:label>Syrian Democratic Council</rdfs:label>
+    <netowl:Entity.Organization.Government..name>Syrian Democratic Council</netowl:Entity.Organization.Government..name>
+  </netowl:Entity.Organization.Government>
+
+  <netowl:Entity.Person rdf:ID='id-5'>
+    <rdfs:label>Mohamed</rdfs:label>
+    <netowl:Entity.Person..name>Mohamed</netowl:Entity.Person..name>
+    <netowl:Entity.Person..lastname>mohamed</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-7'>
+    <rdfs:label>Najmaldin Karim</rdfs:label>
+    <netowl:Entity.Person..name>Najmaldin Karim</netowl:Entity.Person..name>
+    <netowl:Entity.Person..descriptor>Kirkuk Governor</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..descriptor>Dr.</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..firstname>najmaldin</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>karim</netowl:Entity.Person..lastname>
+    <netowl:Link.Person.Person_resident_of..person..reverse rdf:resource='#id-17'/>
+    <netowl:Event.Political.Hold_meeting..entity..reverse rdf:resource='#id-19'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-11'>
+    <rdfs:label>Syrian Democratic Council Representative</rdfs:label>
+    <netowl:Entity.Person..descriptor>Syrian Democratic Council Representative</netowl:Entity.Person..descriptor>
+    <netowl:Event.Political.Hold_meeting..entity..reverse rdf:resource='#id-19'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.City rdf:ID='id-13'>
+    <rdfs:label>Kirkuk</rdfs:label>
+    <netowl:Entity.Place.City..name>Kirkuk</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>iz</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>iq</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>iraq</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>kirkuk</netowl:Entity.Place.City..province>
+    <netowl:Link.Person.Person_resident_of..place..reverse rdf:resource='#id-17'/>
+    <netowl:Entity.Place.City..geocode_confidence>0.9065</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>35.4681</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>44.3922</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-15'>
+    <rdfs:label>USA</rdfs:label>
+    <netowl:Entity.Place.Country..name>USA</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>us</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>us</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>united states</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>38</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>-97</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Link.Person.Person_resident_of rdf:ID='id-17'>
+    <netowl:Link.Person.Person_resident_of..person rdf:resource='#id-7'/>
+    <netowl:Link.Person.Person_resident_of..place rdf:resource='#id-13'/>
+  </netowl:Link.Person.Person_resident_of>
+
+  <netowl:Event.Political.Hold_meeting rdf:ID='id-19'>
+    <rdfs:label>met</rdfs:label>
+    <netowl:Event.Political.Hold_meeting..predicate>met</netowl:Event.Political.Hold_meeting..predicate>
+    <netowl:Event.Political.Hold_meeting..tense>past</netowl:Event.Political.Hold_meeting..tense>
+    <netowl:Event.Political.Hold_meeting..entity rdf:resource='#id-7'/>
+    <netowl:Event.Political.Hold_meeting..entity rdf:resource='#id-11'/>
+  </netowl:Event.Political.Hold_meeting>
+
+</rdf:RDF>

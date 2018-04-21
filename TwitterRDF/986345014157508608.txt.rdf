@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/r10xTnYNKl</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/r10xTnYNKl</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>AFRIN</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>AFRIN</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-5'>
+    <rdfs:label>@HaticeBraKoak2</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@HaticeBraKoak2</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Military rdf:ID='id-7'>
+    <rdfs:label>ARMY</rdfs:label>
+    <netowl:Entity.Organization.Military..name>ARMY</netowl:Entity.Organization.Military..name>
+    <netowl:Link.Organization.Org_location..organization..reverse rdf:resource='#id-14'/>
+    <netowl:Link.Organization.Org_nationality..organization..reverse rdf:resource='#id-16'/>
+  </netowl:Entity.Organization.Military>
+
+  <netowl:Entity.Place.City rdf:ID='id-9'>
+    <rdfs:label>AFRIN</rdfs:label>
+    <netowl:Entity.Place.City..name>AFRIN</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>sy</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>sy</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>syria</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>halab</netowl:Entity.Place.City..province>
+    <netowl:Link.Organization.Org_location..location..reverse rdf:resource='#id-14'/>
+    <netowl:Entity.Place.City..geocode_confidence>0.7142</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>36.5119</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>36.8695</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-11'>
+    <rdfs:label>TURKEY</rdfs:label>
+    <netowl:Entity.Place.Country..name>TURKISH</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..name>TURKEY</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Link.Organization.Org_nationality..country..reverse rdf:resource='#id-16'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Link.Organization.Org_location rdf:ID='id-14'>
+    <netowl:Link.Organization.Org_location..organization rdf:resource='#id-7'/>
+    <netowl:Link.Organization.Org_location..location rdf:resource='#id-9'/>
+  </netowl:Link.Organization.Org_location>
+
+  <netowl:Link.Organization.Org_nationality rdf:ID='id-16'>
+    <netowl:Link.Organization.Org_nationality..organization rdf:resource='#id-7'/>
+    <netowl:Link.Organization.Org_nationality..country rdf:resource='#id-11'/>
+  </netowl:Link.Organization.Org_nationality>
+
+</rdf:RDF>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-1'>
+    <rdfs:label>@MerdKurd1</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@MerdKurd1</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Organization rdf:ID='id-3'>
+    <rdfs:label>UN</rdfs:label>
+    <netowl:Entity.Organization.Organization..name>UN</netowl:Entity.Organization.Organization..name>
+    <netowl:Link.Organization.Org_location..organization..reverse rdf:resource='#id-14'/>
+  </netowl:Entity.Organization.Organization>
+
+  <netowl:Entity.Person rdf:ID='id-5'>
+    <rdfs:label>Yezidi community</rdfs:label>
+    <netowl:Entity.Person..descriptor>Yezidi community</netowl:Entity.Person..descriptor>
+    <netowl:Event.Conflict.Protest..protester..reverse rdf:resource='#id-18'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.City rdf:ID='id-7'>
+    <rdfs:label>Qamishlo</rdfs:label>
+    <netowl:Entity.Place.City..name>Qamishlo</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>gg</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>ge</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>georgia</netowl:Entity.Place.City..country>
+    <netowl:Link.Organization.Org_location..location..reverse rdf:resource='#id-14'/>
+    <netowl:Entity.Place.City..geocode_confidence>0.0769</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>41.249</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>44.3439</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Other rdf:ID='id-9'>
+    <rdfs:label>Rojava</rdfs:label>
+    <netowl:Entity.Place.Other..name>Rojava</netowl:Entity.Place.Other..name>
+    <netowl:Entity.Place.Other..fips_10_4_country>pk</netowl:Entity.Place.Other..fips_10_4_country>
+    <netowl:Entity.Place.Other..iso_3166_1_country>pk</netowl:Entity.Place.Other..iso_3166_1_country>
+    <netowl:Entity.Place.Other..country>pakistan</netowl:Entity.Place.Other..country>
+    <netowl:Entity.Place.Other..province>punjab</netowl:Entity.Place.Other..province>
+    <netowl:Link.Place.Place_parent..parent..reverse rdf:resource='#id-16'/>
+    <netowl:Entity.Place.Other..geocode_confidence>0.2039</netowl:Entity.Place.Other..geocode_confidence>
+    <netowl:Entity.Place.Other..latitude>32.0146</netowl:Entity.Place.Other..latitude>
+    <netowl:Entity.Place.Other..longitude>72.4683</netowl:Entity.Place.Other..longitude>
+  </netowl:Entity.Place.Other>
+
+  <netowl:Entity.Place.Region rdf:ID='id-11'>
+    <rdfs:label>Jazira</rdfs:label>
+    <netowl:Entity.Place.Region..name>Jazira</netowl:Entity.Place.Region..name>
+    <netowl:Entity.Place.Region..descriptor>Jazira region of Rojava</netowl:Entity.Place.Region..descriptor>
+    <netowl:Link.Place.Place_parent..place..reverse rdf:resource='#id-16'/>
+    <netowl:Event.Conflict.Protest..place..reverse rdf:resource='#id-18'/>
+  </netowl:Entity.Place.Region>
+
+  <netowl:Link.Organization.Org_location rdf:ID='id-14'>
+    <netowl:Link.Organization.Org_location..organization rdf:resource='#id-3'/>
+    <netowl:Link.Organization.Org_location..location rdf:resource='#id-7'/>
+  </netowl:Link.Organization.Org_location>
+
+  <netowl:Link.Place.Place_parent rdf:ID='id-16'>
+    <netowl:Link.Place.Place_parent..place rdf:resource='#id-11'/>
+    <netowl:Link.Place.Place_parent..parent rdf:resource='#id-9'/>
+  </netowl:Link.Place.Place_parent>
+
+  <netowl:Event.Conflict.Protest rdf:ID='id-18'>
+    <rdfs:label>held</rdfs:label>
+    <netowl:Event.Conflict.Protest..predicate>held</netowl:Event.Conflict.Protest..predicate>
+    <netowl:Event.Conflict.Protest..tense>past</netowl:Event.Conflict.Protest..tense>
+    <netowl:Event.Conflict.Protest..protester rdf:resource='#id-5'/>
+    <netowl:Event.Conflict.Protest..place rdf:resource='#id-11'/>
+  </netowl:Event.Conflict.Protest>
+
+</rdf:RDF>

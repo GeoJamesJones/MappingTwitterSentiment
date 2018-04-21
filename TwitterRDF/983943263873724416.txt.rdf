@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/Q4U2WM0edE</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/Q4U2WM0edE</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Artifact.Vehicle.Other rdf:ID='id-3'>
+    <rdfs:label>65 armored vehicles</rdfs:label>
+    <netowl:Entity.Artifact.Vehicle.Other..descriptor>65 armored vehicles</netowl:Entity.Artifact.Vehicle.Other..descriptor>
+    <netowl:Event.Transaction.Transport_artifact..artifact..reverse rdf:resource='#id-17'/>
+  </netowl:Entity.Artifact.Vehicle.Other>
+
+  <netowl:Entity.Artifact.Weapon.Other rdf:ID='id-6'>
+    <rdfs:label>weapons</rdfs:label>
+    <netowl:Entity.Artifact.Weapon.Other..descriptor>weapons</netowl:Entity.Artifact.Weapon.Other..descriptor>
+  </netowl:Entity.Artifact.Weapon.Other>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-8'>
+    <rdfs:label>Syria</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Syria</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Place.Country rdf:ID='id-10'>
+    <rdfs:label>Syria</rdfs:label>
+    <netowl:Entity.Place.Country..name>Syria</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>sy</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>sy</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>syria</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>35</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>38</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Country rdf:ID='id-12'>
+    <rdfs:label>United States</rdfs:label>
+    <netowl:Entity.Place.Country..name>United States</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>us</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>us</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>united states</netowl:Entity.Place.Country..country>
+    <netowl:Event.Transaction.Transport_artifact..transporter..reverse rdf:resource='#id-17'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>38</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>-97</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Province rdf:ID='id-14'>
+    <rdfs:label>northern Syria</rdfs:label>
+    <netowl:Entity.Place.Province..descriptor>northern Syria</netowl:Entity.Place.Province..descriptor>
+    <netowl:Entity.Place.Province..fips_10_4_country>sy</netowl:Entity.Place.Province..fips_10_4_country>
+    <netowl:Entity.Place.Province..iso_3166_1_country>sy</netowl:Entity.Place.Province..iso_3166_1_country>
+    <netowl:Entity.Place.Province..country>syria</netowl:Entity.Place.Province..country>
+  </netowl:Entity.Place.Province>
+
+  <netowl:Event.Transaction.Transport_artifact rdf:ID='id-17'>
+    <rdfs:label>has transferred</rdfs:label>
+    <netowl:Event.Transaction.Transport_artifact..predicate>has transferred</netowl:Event.Transaction.Transport_artifact..predicate>
+    <netowl:Event.Transaction.Transport_artifact..predicate>would be sent</netowl:Event.Transaction.Transport_artifact..predicate>
+    <netowl:Event.Transaction.Transport_artifact..tense>present</netowl:Event.Transaction.Transport_artifact..tense>
+    <netowl:Event.Transaction.Transport_artifact..transporter rdf:resource='#id-12'/>
+    <netowl:Event.Transaction.Transport_artifact..artifact rdf:resource='#id-3'/>
+  </netowl:Event.Transaction.Transport_artifact>
+
+</rdf:RDF>

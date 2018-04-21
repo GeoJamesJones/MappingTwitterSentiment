@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-1'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>FSA</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>FSA</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>TurkishArmy</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>TurkishArmy</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-7'>
+    <rdfs:label>@Bilesa_Shaweys</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@Bilesa_Shaweys</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Organization rdf:ID='id-9'>
+    <rdfs:label>FSA</rdfs:label>
+    <netowl:Entity.Organization.Organization..name>FSA</netowl:Entity.Organization.Organization..name>
+  </netowl:Entity.Organization.Organization>
+
+  <netowl:Entity.Person rdf:ID='id-11'>
+    <rdfs:label>the Afrin civilians</rdfs:label>
+    <netowl:Entity.Person..descriptor>the Afrin civilians</netowl:Entity.Person..descriptor>
+    <netowl:Event.Transaction.Travel..person..reverse rdf:resource='#id-17'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.City rdf:ID='id-13'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Place.City..name>Afrin</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..descriptor>the city</netowl:Entity.Place.City..descriptor>
+    <netowl:Entity.Place.City..fips_10_4_country>sy</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>sy</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>syria</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>halab</netowl:Entity.Place.City..province>
+    <netowl:Event.Transaction.Travel..to_place..reverse rdf:resource='#id-17'/>
+    <netowl:Entity.Place.City..geocode_confidence>0.6983</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>36.5119</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>36.8695</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Event.Transaction.Travel rdf:ID='id-17'>
+    <rdfs:label>to return</rdfs:label>
+    <netowl:Event.Transaction.Travel..predicate>to return</netowl:Event.Transaction.Travel..predicate>
+    <netowl:Event.Transaction.Travel..person rdf:resource='#id-11'/>
+    <netowl:Event.Transaction.Travel..to_place rdf:resource='#id-13'/>
+  </netowl:Event.Transaction.Travel>
+
+</rdf:RDF>

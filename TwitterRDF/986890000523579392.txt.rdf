@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-1'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Donbas</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Donbas</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>EasternGhouta</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>EasternGhouta</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>Fallujah</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Fallujah</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-9'>
+    <rdfs:label>Gaza</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Gaza</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-11'>
+    <rdfs:label>Homs</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Homs</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-13'>
+    <rdfs:label>Juba</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Juba</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-15'>
+    <rdfs:label>Kasai</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Kasai</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-17'>
+    <rdfs:label>Marawi</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Marawi</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-19'>
+    <rdfs:label>Misrata</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Misrata</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-21'>
+    <rdfs:label>Mogadishu</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Mogadishu</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-23'>
+    <rdfs:label>Mosul</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Mosul</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-25'>
+    <rdfs:label>Raqqa</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Raqqa</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-27'>
+    <rdfs:label>Taiz</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Taiz</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-30'>
+    <rdfs:label>Zabadani</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Zabadani</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-32'>
+    <rdfs:label>@ICRC</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@ICRC</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Place.City rdf:ID='id-34'>
+    <rdfs:label>Fallujah</rdfs:label>
+    <netowl:Entity.Place.City..name>Fallujah</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>iz</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>iq</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>iraq</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>al &apos;anbar</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>1</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>33.3491</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>43.786</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.City rdf:ID='id-36'>
+    <rdfs:label>Homs</rdfs:label>
+    <netowl:Entity.Place.City..name>Homs</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>sy</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>sy</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>syria</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>hims</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.7986</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>34.7268</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>36.7234</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.City rdf:ID='id-38'>
+    <rdfs:label>Juba</rdfs:label>
+    <netowl:Entity.Place.City..name>Juba</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>od</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>ss</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>south sudan</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>central equatoria</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.3302</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>4.846</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>31.6012</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.City rdf:ID='id-40'>
+    <rdfs:label>Marawi</rdfs:label>
+    <netowl:Entity.Place.City..name>Marawi</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>rp</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>ph</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>philippines</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>lanao del sur</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.4339</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>8.0034</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>124.2839</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.City rdf:ID='id-42'>
+    <rdfs:label>Mogadishu</rdfs:label>
+    <netowl:Entity.Place.City..name>Mogadishu</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>so</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>so</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>somalia</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>banadir region</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.9486</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>2.0462</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>45.3341</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.City rdf:ID='id-44'>
+    <rdfs:label>Mosul</rdfs:label>
+    <netowl:Entity.Place.City..name>Mosul</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>iz</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>iq</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>iraq</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>ninawa</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.8507</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>36.335</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>43.1189</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.City rdf:ID='id-46'>
+    <rdfs:label>Raqqa</rdfs:label>
+    <netowl:Entity.Place.City..name>Raqqa</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>sy</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>sy</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>syria</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>ar raqqah</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.9456</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>35.9528</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>39.0079</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-48'>
+    <rdfs:label>Gaza</rdfs:label>
+    <netowl:Entity.Place.Country..name>Gaza</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>gz</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..country>gaza strip</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>31.4167</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>34.3333</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Region rdf:ID='id-50'>
+    <rdfs:label>Donbas</rdfs:label>
+    <netowl:Entity.Place.Region..name>Donbas</netowl:Entity.Place.Region..name>
+  </netowl:Entity.Place.Region>
+
+</rdf:RDF>

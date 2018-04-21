@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-1'>
+    <rdfs:label>@ICafrinresist</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@ICafrinresist</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Terrorist rdf:ID='id-3'>
+    <rdfs:label>YPG</rdfs:label>
+    <netowl:Entity.Organization.Terrorist..name>YPG</netowl:Entity.Organization.Terrorist..name>
+    <netowl:Entity.Organization.Terrorist..descriptor>the Syrian Kurdish YPG militia</netowl:Entity.Organization.Terrorist..descriptor>
+    <netowl:Link.Organization.Org_nationality..organization..reverse rdf:resource='#id-16'/>
+  </netowl:Entity.Organization.Terrorist>
+
+  <netowl:Entity.Place.City rdf:ID='id-6'>
+    <rdfs:label>Moscow</rdfs:label>
+    <netowl:Entity.Place.City..name>Moscow</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>rs</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>ru</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>russia</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>moskva</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.7303</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>55.7522</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>37.6156</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.City rdf:ID='id-8'>
+    <rdfs:label>Tel Rifaat</rdfs:label>
+    <netowl:Entity.Place.City..name>Tel Rifaat</netowl:Entity.Place.City..name>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-10'>
+    <rdfs:label>Syrian</rdfs:label>
+    <netowl:Entity.Place.Country..name>Syrian</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>sy</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>sy</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>syria</netowl:Entity.Place.Country..country>
+    <netowl:Link.Organization.Org_nationality..country..reverse rdf:resource='#id-16'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>35</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>38</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Country rdf:ID='id-12'>
+    <rdfs:label>Turkey</rdfs:label>
+    <netowl:Entity.Place.Country..name>Turkey</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Region rdf:ID='id-14'>
+    <rdfs:label>Kurdish</rdfs:label>
+    <netowl:Entity.Place.Region..name>Kurdish</netowl:Entity.Place.Region..name>
+  </netowl:Entity.Place.Region>
+
+  <netowl:Link.Organization.Org_nationality rdf:ID='id-16'>
+    <netowl:Link.Organization.Org_nationality..organization rdf:resource='#id-3'/>
+    <netowl:Link.Organization.Org_nationality..country rdf:resource='#id-10'/>
+  </netowl:Link.Organization.Org_nationality>
+
+</rdf:RDF>

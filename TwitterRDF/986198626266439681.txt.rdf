@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/8Y3h1mNwZf</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/8Y3h1mNwZf</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-3'>
+    <rdfs:label>@StateDept</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@StateDept</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-5'>
+    <rdfs:label>@statedeptspox</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@statedeptspox</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Person rdf:ID='id-7'>
+    <rdfs:label>Mehmet Hakan Atilla</rdfs:label>
+    <netowl:Entity.Person..name>Mehmet Hakan Atilla</netowl:Entity.Person..name>
+    <netowl:Entity.Person..firstname>mehmet</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..middlename>hakan</netowl:Entity.Person..middlename>
+    <netowl:Entity.Person..lastname>atilla</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+    <netowl:Event.Law.Jail..prisoner..reverse rdf:resource='#id-11'/>
+  </netowl:Entity.Person>
+
+  <netowl:Event.Law.Jail rdf:ID='id-11'>
+    <rdfs:label>will be put</rdfs:label>
+    <netowl:Event.Law.Jail..predicate>will be put</netowl:Event.Law.Jail..predicate>
+    <netowl:Event.Law.Jail..tense>future</netowl:Event.Law.Jail..tense>
+    <netowl:Event.Law.Jail..prisoner rdf:resource='#id-7'/>
+  </netowl:Event.Law.Jail>
+
+</rdf:RDF>

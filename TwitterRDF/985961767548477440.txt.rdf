@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/1Oi7XUfE7p</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/1Oi7XUfE7p</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Place.City rdf:ID='id-5'>
+    <rdfs:label>Chaqila al-Wastaniya</rdfs:label>
+    <netowl:Entity.Place.City..name>Chaqila al-Wastaniya</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..descriptor>Chaqila al-Wastaniya village</netowl:Entity.Place.City..descriptor>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Other rdf:ID='id-8'>
+    <rdfs:label>Janders</rdfs:label>
+    <netowl:Entity.Place.Other..name>Janders</netowl:Entity.Place.Other..name>
+    <netowl:Entity.Place.Other..descriptor>Janders area</netowl:Entity.Place.Other..descriptor>
+    <netowl:Entity.Place.Other..fips_10_4_country>in</netowl:Entity.Place.Other..fips_10_4_country>
+    <netowl:Entity.Place.Other..iso_3166_1_country>in</netowl:Entity.Place.Other..iso_3166_1_country>
+    <netowl:Entity.Place.Other..country>india</netowl:Entity.Place.Other..country>
+    <netowl:Entity.Place.Other..province>punjab</netowl:Entity.Place.Other..province>
+    <netowl:Entity.Place.Other..geocode_confidence>1</netowl:Entity.Place.Other..geocode_confidence>
+    <netowl:Entity.Place.Other..latitude>31.566</netowl:Entity.Place.Other..latitude>
+    <netowl:Entity.Place.Other..longitude>75.6698</netowl:Entity.Place.Other..longitude>
+  </netowl:Entity.Place.Other>
+
+</rdf:RDF>

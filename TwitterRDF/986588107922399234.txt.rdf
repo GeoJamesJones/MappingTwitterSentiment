@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/nHYI9lBhAa</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/nHYI9lBhAa</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>FAO</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>FAO</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-6'>
+    <rdfs:label>ILO</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>ILO</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-8'>
+    <rdfs:label>IMF</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>IMF</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-10'>
+    <rdfs:label>OCHA</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>OCHA</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-12'>
+    <rdfs:label>OECD</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>OECD</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-14'>
+    <rdfs:label>UNDP</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>UNDP</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-16'>
+    <rdfs:label>UNESCO</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>UNESCO</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-18'>
+    <rdfs:label>UNICEF</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>UNICEF</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Organization.Organization rdf:ID='id-20'>
+    <rdfs:label>IMF</rdfs:label>
+    <netowl:Entity.Organization.Organization..name>IMF</netowl:Entity.Organization.Organization..name>
+  </netowl:Entity.Organization.Organization>
+
+  <netowl:Entity.Organization.Organization rdf:ID='id-22'>
+    <rdfs:label>OECD</rdfs:label>
+    <netowl:Entity.Organization.Organization..name>OECD</netowl:Entity.Organization.Organization..name>
+  </netowl:Entity.Organization.Organization>
+
+  <netowl:Entity.Organization.Organization rdf:ID='id-24'>
+    <rdfs:label>UNESCO</rdfs:label>
+    <netowl:Entity.Organization.Organization..name>UNESCO</netowl:Entity.Organization.Organization..name>
+  </netowl:Entity.Organization.Organization>
+
+  <netowl:Entity.Organization.Organization rdf:ID='id-26'>
+    <rdfs:label>UNICEF</rdfs:label>
+    <netowl:Entity.Organization.Organization..name>UNICEF</netowl:Entity.Organization.Organization..name>
+  </netowl:Entity.Organization.Organization>
+
+  <netowl:Entity.Place.Country rdf:ID='id-28'>
+    <rdfs:label>Syrians</rdfs:label>
+    <netowl:Entity.Place.Country..name>Syrians</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>sy</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>sy</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>syria</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>35</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>38</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Country rdf:ID='id-30'>
+    <rdfs:label>Turkish</rdfs:label>
+    <netowl:Entity.Place.Country..name>Turkish</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+</rdf:RDF>

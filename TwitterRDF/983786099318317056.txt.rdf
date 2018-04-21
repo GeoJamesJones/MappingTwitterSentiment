@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-1'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>OliveBranch</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>OliveBranch</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-5'>
+    <rdfs:label>@evacool_f</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@evacool_f</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Military rdf:ID='id-7'>
+    <rdfs:label>OliveBranch</rdfs:label>
+    <netowl:Entity.Organization.Military..name>OliveBranch</netowl:Entity.Organization.Military..name>
+  </netowl:Entity.Organization.Military>
+
+  <netowl:Entity.Place.City rdf:ID='id-9'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Place.City..name>Afrin</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..descriptor>the city of Afrin</netowl:Entity.Place.City..descriptor>
+    <netowl:Entity.Place.City..fips_10_4_country>sy</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>sy</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>syria</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>halab</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.6983</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>36.5119</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>36.8695</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+</rdf:RDF>

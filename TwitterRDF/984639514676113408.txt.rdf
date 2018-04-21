@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/UeAw3k8YMF</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/UeAw3k8YMF</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>KurdishSelfManagement</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>KurdishSelfManagement</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-5'>
+    <rdfs:label>@snhr</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@snhr</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Military rdf:ID='id-8'>
+    <rdfs:label>KurdishSelfManagement</rdfs:label>
+    <netowl:Entity.Organization.Military..name>KurdishSelfManagement</netowl:Entity.Organization.Military..name>
+  </netowl:Entity.Organization.Military>
+
+  <netowl:Entity.Organization.Military rdf:ID='id-10'>
+    <rdfs:label>KurdishSelfManagement forces</rdfs:label>
+    <netowl:Entity.Organization.Military..descriptor>KurdishSelfManagement forces</netowl:Entity.Organization.Military..descriptor>
+    <netowl:Event.Conflict.Kill..killer..reverse rdf:resource='#id-22'/>
+  </netowl:Entity.Organization.Military>
+
+  <netowl:Entity.Person rdf:ID='id-12'>
+    <rdfs:label>Hamida Khalil Hesso</rdfs:label>
+    <netowl:Entity.Person..name>Hamida Khalil Hesso</netowl:Entity.Person..name>
+    <netowl:Entity.Person..descriptor>her mother</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..firstname>hamida_khalil</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>hesso</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>female</netowl:Entity.Person..gender>
+    <netowl:Link.Person.Person_parent..parent..reverse rdf:resource='#id-20'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-16'>
+    <rdfs:label>Rouhin Abdo</rdfs:label>
+    <netowl:Entity.Person..name>Rouhin Abdo</netowl:Entity.Person..name>
+    <netowl:Entity.Person..descriptor>the girl</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..firstname>rouhin</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>abdo</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>female</netowl:Entity.Person..gender>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+    <netowl:Link.Person.Person_parent..person..reverse rdf:resource='#id-20'/>
+    <netowl:Event.Conflict.Kill..victim..reverse rdf:resource='#id-22'/>
+  </netowl:Entity.Person>
+
+  <netowl:Link.Person.Person_parent rdf:ID='id-20'>
+    <netowl:Link.Person.Person_parent..person rdf:resource='#id-16'/>
+    <netowl:Link.Person.Person_parent..parent rdf:resource='#id-12'/>
+  </netowl:Link.Person.Person_parent>
+
+  <netowl:Event.Conflict.Kill rdf:ID='id-22'>
+    <rdfs:label>killed</rdfs:label>
+    <netowl:Event.Conflict.Kill..predicate>killed</netowl:Event.Conflict.Kill..predicate>
+    <netowl:Event.Conflict.Kill..tense>past</netowl:Event.Conflict.Kill..tense>
+    <netowl:Event.Conflict.Kill..killer rdf:resource='#id-10'/>
+    <netowl:Event.Conflict.Kill..victim rdf:resource='#id-16'/>
+  </netowl:Event.Conflict.Kill>
+
+</rdf:RDF>

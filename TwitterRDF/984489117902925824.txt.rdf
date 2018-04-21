@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/b0himSv1g2</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/b0himSv1g2</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Turkey</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Turkey</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Title rdf:ID='id-5'>
+    <rdfs:label>Sen.</rdfs:label>
+    <netowl:Entity.Concept.Title..name>Sen.</netowl:Entity.Concept.Title..name>
+    <netowl:Link.Person.Person_title..title..reverse rdf:resource='#id-15'/>
+  </netowl:Entity.Concept.Title>
+
+  <netowl:Entity.Person rdf:ID='id-7'>
+    <rdfs:label>Menendez</rdfs:label>
+    <netowl:Entity.Person..name>Menendez</netowl:Entity.Person..name>
+    <netowl:Entity.Person..descriptor>Sen.</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..lastname>menendez</netowl:Entity.Person..lastname>
+    <netowl:Link.Person.Person_title..person..reverse rdf:resource='#id-15'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Person rdf:ID='id-10'>
+    <rdfs:label>Mike Pompeo</rdfs:label>
+    <netowl:Entity.Person..name>Mike Pompeo</netowl:Entity.Person..name>
+    <netowl:Entity.Person..name>Pompeo</netowl:Entity.Person..name>
+    <netowl:Entity.Person..firstname>mike</netowl:Entity.Person..firstname>
+    <netowl:Entity.Person..lastname>pompeo</netowl:Entity.Person..lastname>
+    <netowl:Entity.Person..gender>male</netowl:Entity.Person..gender>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.Country rdf:ID='id-13'>
+    <rdfs:label>Turkey</rdfs:label>
+    <netowl:Entity.Place.Country..name>Turkey</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Link.Person.Person_title rdf:ID='id-15'>
+    <netowl:Link.Person.Person_title..person rdf:resource='#id-7'/>
+    <netowl:Link.Person.Person_title..title rdf:resource='#id-5'/>
+  </netowl:Link.Person.Person_title>
+
+</rdf:RDF>

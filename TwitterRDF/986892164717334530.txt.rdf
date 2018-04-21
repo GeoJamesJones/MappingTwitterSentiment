@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-1'>
+    <rdfs:label>@davidtorcivia</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@davidtorcivia</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Terrorist rdf:ID='id-3'>
+    <rdfs:label>isis</rdfs:label>
+    <netowl:Entity.Organization.Terrorist..name>isis</netowl:Entity.Organization.Terrorist..name>
+    <netowl:Event.Conflict.Kill..killer..reverse rdf:resource='#id-11'/>
+  </netowl:Entity.Organization.Terrorist>
+
+  <netowl:Entity.Person rdf:ID='id-6'>
+    <rdfs:label>citizens</rdfs:label>
+    <netowl:Entity.Person..descriptor>citizens</netowl:Entity.Person..descriptor>
+    <netowl:Event.Conflict.Kill..victim..reverse rdf:resource='#id-11'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.Country rdf:ID='id-9'>
+    <rdfs:label>Turkey</rdfs:label>
+    <netowl:Entity.Place.Country..name>Turkey</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Event.Conflict.Kill rdf:ID='id-11'>
+    <rdfs:label>kills</rdfs:label>
+    <netowl:Event.Conflict.Kill..predicate>kills</netowl:Event.Conflict.Kill..predicate>
+    <netowl:Event.Conflict.Kill..tense>present</netowl:Event.Conflict.Kill..tense>
+    <netowl:Event.Conflict.Kill..killer rdf:resource='#id-3'/>
+    <netowl:Event.Conflict.Kill..victim rdf:resource='#id-6'/>
+  </netowl:Event.Conflict.Kill>
+
+</rdf:RDF>

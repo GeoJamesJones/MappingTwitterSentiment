@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Artifact.Vehicle.Ground rdf:ID='id-1'>
+    <rdfs:label>German tanks</rdfs:label>
+    <netowl:Entity.Artifact.Vehicle.Ground..descriptor>German tanks</netowl:Entity.Artifact.Vehicle.Ground..descriptor>
+    <netowl:Link.Artifact.Artifact_owner..artifact..reverse rdf:resource='#id-19'/>
+  </netowl:Entity.Artifact.Vehicle.Ground>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>Kurdi</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Kurdi</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-7'>
+    <rdfs:label>@ICafrinresist</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@ICafrinresist</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Company rdf:ID='id-9'>
+    <rdfs:label>Munster</rdfs:label>
+    <netowl:Entity.Organization.Company..name>Munster</netowl:Entity.Organization.Company..name>
+    <netowl:Entity.Organization.Company..industry>other</netowl:Entity.Organization.Company..industry>
+    <netowl:Link.Organization.Org_location..organization..reverse rdf:resource='#id-21'/>
+  </netowl:Entity.Organization.Company>
+
+  <netowl:Entity.Person rdf:ID='id-11'>
+    <rdfs:label>Erdogan</rdfs:label>
+    <netowl:Entity.Person..name>Erdogan</netowl:Entity.Person..name>
+    <netowl:Entity.Person..descriptor>Murderer</netowl:Entity.Person..descriptor>
+    <netowl:Entity.Person..lastname>erdogan</netowl:Entity.Person..lastname>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.City rdf:ID='id-14'>
+    <rdfs:label>Kurdi</rdfs:label>
+    <netowl:Entity.Place.City..name>Kurdi</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>in</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>in</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>india</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>karnataka</netowl:Entity.Place.City..province>
+    <netowl:Entity.Place.City..geocode_confidence>0.1944</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>16.0511</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>77.2114</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-16'>
+    <rdfs:label>Germany</rdfs:label>
+    <netowl:Entity.Place.Country..name>Germany</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..name>German</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>gm</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>de</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>germany</netowl:Entity.Place.Country..country>
+    <netowl:Link.Artifact.Artifact_owner..owner..reverse rdf:resource='#id-19'/>
+    <netowl:Link.Organization.Org_location..location..reverse rdf:resource='#id-21'/>
+    <netowl:Event.Conflict.Protest..place..reverse rdf:resource='#id-23'/>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>51</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>9</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Link.Artifact.Artifact_owner rdf:ID='id-19'>
+    <netowl:Link.Artifact.Artifact_owner..artifact rdf:resource='#id-1'/>
+    <netowl:Link.Artifact.Artifact_owner..owner rdf:resource='#id-16'/>
+  </netowl:Link.Artifact.Artifact_owner>
+
+  <netowl:Link.Organization.Org_location rdf:ID='id-21'>
+    <netowl:Link.Organization.Org_location..organization rdf:resource='#id-9'/>
+    <netowl:Link.Organization.Org_location..location rdf:resource='#id-16'/>
+  </netowl:Link.Organization.Org_location>
+
+  <netowl:Event.Conflict.Protest rdf:ID='id-23'>
+    <rdfs:label>Protests</rdfs:label>
+    <netowl:Event.Conflict.Protest..predicate>Protests</netowl:Event.Conflict.Protest..predicate>
+    <netowl:Event.Conflict.Protest..place rdf:resource='#id-16'/>
+  </netowl:Event.Conflict.Protest>
+
+</rdf:RDF>

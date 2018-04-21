@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-1'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Australia</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Australia</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>BreakSilenceOnAfrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>BreakSilenceOnAfrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>Efrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Efrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-9'>
+    <rdfs:label>StopAfrinGenocide</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>StopAfrinGenocide</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-11'>
+    <rdfs:label>Sydney</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Sydney</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-13'>
+    <rdfs:label>WomenRiseU</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>WomenRiseU</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-15'>
+    <rdfs:label>@ICafrinresist</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@ICafrinresist</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Place.Country rdf:ID='id-17'>
+    <rdfs:label>Australia</rdfs:label>
+    <netowl:Entity.Place.Country..name>Australia</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>as</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>au</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>australia</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>-27</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>133</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Time.Date rdf:ID='id-19'>
+    <rdfs:label>29th of April</rdfs:label>
+    <netowl:Entity.Time.Date..name>29th of April</netowl:Entity.Time.Date..name>
+    <netowl:Entity.Time.Date..day>29</netowl:Entity.Time.Date..day>
+    <netowl:Entity.Time.Date..month>04</netowl:Entity.Time.Date..month>
+  </netowl:Entity.Time.Date>
+
+  <netowl:Entity.Time.Date rdf:ID='id-21'>
+    <rdfs:label>Sunday</rdfs:label>
+    <netowl:Entity.Time.Date..name>Sunday</netowl:Entity.Time.Date..name>
+    <netowl:Entity.Time.Date..dow>sunday</netowl:Entity.Time.Date..dow>
+  </netowl:Entity.Time.Date>
+
+</rdf:RDF>

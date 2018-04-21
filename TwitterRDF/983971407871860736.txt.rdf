@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/CRRQroh5ay</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/CRRQroh5ay</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-3'>
+    <rdfs:label>@_edwardmondini_</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@_edwardmondini_</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-5'>
+    <rdfs:label>@JacobAWohl</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@JacobAWohl</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-7'>
+    <rdfs:label>@kwilli1046</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@kwilli1046</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-9'>
+    <rdfs:label>@MOVEFORWARDHUGE</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@MOVEFORWARDHUGE</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-11'>
+    <rdfs:label>@ntvnyr173</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@ntvnyr173</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-13'>
+    <rdfs:label>@nuiotwo</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@nuiotwo</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-15'>
+    <rdfs:label>@veteran423</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@veteran423</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-17'>
+    <rdfs:label>@WaydeDe</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@WaydeDe</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-19'>
+    <rdfs:label>@WilheminaFoxx</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@WilheminaFoxx</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+</rdf:RDF>

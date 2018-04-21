@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Artifact.Vehicle.Ground rdf:ID='id-1'>
+    <rdfs:label>a tank belonging to the invading Turkish army in Afrin’s Bilbile district</rdfs:label>
+    <netowl:Entity.Artifact.Vehicle.Ground..descriptor>a tank belonging to the invading Turkish army in Afrin’s Bilbile district</netowl:Entity.Artifact.Vehicle.Ground..descriptor>
+    <netowl:Event.Conflict.Attack_target..target..reverse rdf:resource='#id-25'/>
+  </netowl:Entity.Artifact.Vehicle.Ground>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>SDF</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>SDF</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-7'>
+    <rdfs:label>@DefenseUnits</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@DefenseUnits</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Other rdf:ID='id-9'>
+    <rdfs:label>SDF</rdfs:label>
+    <netowl:Entity.Organization.Other..name>SDF</netowl:Entity.Organization.Other..name>
+  </netowl:Entity.Organization.Other>
+
+  <netowl:Entity.Organization.Terrorist rdf:ID='id-11'>
+    <rdfs:label>YPG</rdfs:label>
+    <netowl:Entity.Organization.Terrorist..name>YPG</netowl:Entity.Organization.Terrorist..name>
+  </netowl:Entity.Organization.Terrorist>
+
+  <netowl:Entity.Person rdf:ID='id-13'>
+    <rdfs:label>YPG-led SDF fighters</rdfs:label>
+    <netowl:Entity.Person..descriptor>YPG-led SDF fighters</netowl:Entity.Person..descriptor>
+    <netowl:Event.Conflict.Attack_target..attacker..reverse rdf:resource='#id-25'/>
+  </netowl:Entity.Person>
+
+  <netowl:Entity.Place.City rdf:ID='id-15'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Place.City..name>Afrin</netowl:Entity.Place.City..name>
+    <netowl:Entity.Place.City..fips_10_4_country>sy</netowl:Entity.Place.City..fips_10_4_country>
+    <netowl:Entity.Place.City..iso_3166_1_country>sy</netowl:Entity.Place.City..iso_3166_1_country>
+    <netowl:Entity.Place.City..country>syria</netowl:Entity.Place.City..country>
+    <netowl:Entity.Place.City..province>halab</netowl:Entity.Place.City..province>
+    <netowl:Link.Place.Place_parent..parent..reverse rdf:resource='#id-23'/>
+    <netowl:Entity.Place.City..geocode_confidence>0.7142</netowl:Entity.Place.City..geocode_confidence>
+    <netowl:Entity.Place.City..latitude>36.5119</netowl:Entity.Place.City..latitude>
+    <netowl:Entity.Place.City..longitude>36.8695</netowl:Entity.Place.City..longitude>
+  </netowl:Entity.Place.City>
+
+  <netowl:Entity.Place.Country rdf:ID='id-17'>
+    <rdfs:label>Turkish</rdfs:label>
+    <netowl:Entity.Place.Country..name>Turkish</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.District rdf:ID='id-20'>
+    <rdfs:label>Bilbile</rdfs:label>
+    <netowl:Entity.Place.District..name>Bilbile</netowl:Entity.Place.District..name>
+    <netowl:Entity.Place.District..descriptor>Afrin’s Bilbile district</netowl:Entity.Place.District..descriptor>
+    <netowl:Entity.Place.District..fips_10_4_country>rp</netowl:Entity.Place.District..fips_10_4_country>
+    <netowl:Entity.Place.District..iso_3166_1_country>ph</netowl:Entity.Place.District..iso_3166_1_country>
+    <netowl:Entity.Place.District..country>philippines</netowl:Entity.Place.District..country>
+    <netowl:Entity.Place.District..province>abra</netowl:Entity.Place.District..province>
+    <netowl:Link.Place.Place_parent..place..reverse rdf:resource='#id-23'/>
+    <netowl:Entity.Place.District..geocode_confidence>1</netowl:Entity.Place.District..geocode_confidence>
+    <netowl:Entity.Place.District..latitude>17.6843</netowl:Entity.Place.District..latitude>
+    <netowl:Entity.Place.District..longitude>120.6674</netowl:Entity.Place.District..longitude>
+  </netowl:Entity.Place.District>
+
+  <netowl:Link.Place.Place_parent rdf:ID='id-23'>
+    <netowl:Link.Place.Place_parent..place rdf:resource='#id-20'/>
+    <netowl:Link.Place.Place_parent..parent rdf:resource='#id-15'/>
+  </netowl:Link.Place.Place_parent>
+
+  <netowl:Event.Conflict.Attack_target rdf:ID='id-25'>
+    <rdfs:label>destroyed</rdfs:label>
+    <netowl:Event.Conflict.Attack_target..predicate>destroyed</netowl:Event.Conflict.Attack_target..predicate>
+    <netowl:Event.Conflict.Attack_target..tense>past</netowl:Event.Conflict.Attack_target..tense>
+    <netowl:Event.Conflict.Attack_target..attacker rdf:resource='#id-13'/>
+    <netowl:Event.Conflict.Attack_target..target rdf:resource='#id-1'/>
+  </netowl:Event.Conflict.Attack_target>
+
+</rdf:RDF>

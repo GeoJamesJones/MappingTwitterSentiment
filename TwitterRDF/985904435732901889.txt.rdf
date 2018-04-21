@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-1'>
+    <rdfs:label>Afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-3'>
+    <rdfs:label>Turkish</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>Turkish</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Username rdf:ID='id-5'>
+    <rdfs:label>@DemocracyXtodos</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Username..name>@DemocracyXtodos</netowl:Entity.Concept.Social_media.Username..name>
+  </netowl:Entity.Concept.Social_media.Username>
+
+  <netowl:Entity.Organization.Military rdf:ID='id-7'>
+    <rdfs:label>Turkish occupation army</rdfs:label>
+    <netowl:Entity.Organization.Military..descriptor>Turkish occupation army</netowl:Entity.Organization.Military..descriptor>
+    <netowl:Event.Conflict.Attack_target..attacker..reverse rdf:resource='#id-17'/>
+  </netowl:Entity.Organization.Military>
+
+  <netowl:Entity.Organization.Terrorist rdf:ID='id-9'>
+    <rdfs:label>YPG</rdfs:label>
+    <netowl:Entity.Organization.Terrorist..name>YPG</netowl:Entity.Organization.Terrorist..name>
+  </netowl:Entity.Organization.Terrorist>
+
+  <netowl:Entity.Place.Country rdf:ID='id-11'>
+    <rdfs:label>Turkish</rdfs:label>
+    <netowl:Entity.Place.Country..name>Turkish</netowl:Entity.Place.Country..name>
+    <netowl:Entity.Place.Country..fips_10_4_country>tu</netowl:Entity.Place.Country..fips_10_4_country>
+    <netowl:Entity.Place.Country..iso_3166_1_country>tr</netowl:Entity.Place.Country..iso_3166_1_country>
+    <netowl:Entity.Place.Country..country>turkey</netowl:Entity.Place.Country..country>
+    <netowl:Entity.Place.Country..geocode_confidence>1</netowl:Entity.Place.Country..geocode_confidence>
+    <netowl:Entity.Place.Country..latitude>39</netowl:Entity.Place.Country..latitude>
+    <netowl:Entity.Place.Country..longitude>35</netowl:Entity.Place.Country..longitude>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Entity.Place.Province rdf:ID='id-13'>
+    <rdfs:label>Afrin Canton</rdfs:label>
+    <netowl:Entity.Place.Province..name>Afrin Canton</netowl:Entity.Place.Province..name>
+    <netowl:Entity.Place.Province..fips_10_4_country>sy</netowl:Entity.Place.Province..fips_10_4_country>
+    <netowl:Entity.Place.Province..iso_3166_1_country>sy</netowl:Entity.Place.Province..iso_3166_1_country>
+    <netowl:Entity.Place.Province..country>syria</netowl:Entity.Place.Province..country>
+    <netowl:Entity.Place.Province..province>afrin canton</netowl:Entity.Place.Province..province>
+    <netowl:Event.Conflict.Attack_target..target..reverse rdf:resource='#id-17'/>
+    <netowl:Entity.Place.Province..geocode_confidence>0.6921</netowl:Entity.Place.Province..geocode_confidence>
+    <netowl:Entity.Place.Province..latitude>36.5489</netowl:Entity.Place.Province..latitude>
+    <netowl:Entity.Place.Province..longitude>36.7929</netowl:Entity.Place.Province..longitude>
+  </netowl:Entity.Place.Province>
+
+  <netowl:Entity.Time.Date rdf:ID='id-15'>
+    <rdfs:label>January 20, 2018</rdfs:label>
+    <netowl:Entity.Time.Date..name>January 20, 2018</netowl:Entity.Time.Date..name>
+    <netowl:Entity.Time.Date..day>20</netowl:Entity.Time.Date..day>
+    <netowl:Entity.Time.Date..month>01</netowl:Entity.Time.Date..month>
+    <netowl:Entity.Time.Date..year>2018</netowl:Entity.Time.Date..year>
+  </netowl:Entity.Time.Date>
+
+  <netowl:Event.Conflict.Attack_target rdf:ID='id-17'>
+    <rdfs:label>attacked</rdfs:label>
+    <netowl:Event.Conflict.Attack_target..predicate>attacked</netowl:Event.Conflict.Attack_target..predicate>
+    <netowl:Event.Conflict.Attack_target..tense>past</netowl:Event.Conflict.Attack_target..tense>
+    <netowl:Event.Conflict.Attack_target..attacker rdf:resource='#id-7'/>
+    <netowl:Event.Conflict.Attack_target..target rdf:resource='#id-13'/>
+  </netowl:Event.Conflict.Attack_target>
+
+</rdf:RDF>

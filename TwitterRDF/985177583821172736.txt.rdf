@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">]>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:netowl='https://api.netowl.com/api/v2/ff5e6185-5d63-459b-9765-4ebb905affc8/_ontology.rdf#'>
+
+  <netowl:Entity.Address.Url rdf:ID='id-1'>
+    <rdfs:label>https://t.co/oRqYvGPgKc</rdfs:label>
+    <netowl:Entity.Address.Url..name>https://t.co/oRqYvGPgKc</netowl:Entity.Address.Url..name>
+  </netowl:Entity.Address.Url>
+
+  <netowl:Entity.Artifact.Weapon.Missile rdf:ID='id-3'>
+    <rdfs:label>cruise missiles</rdfs:label>
+    <netowl:Entity.Artifact.Weapon.Missile..descriptor>cruise missiles</netowl:Entity.Artifact.Weapon.Missile..descriptor>
+    <netowl:Event.Transaction.Transport_artifact..artifact..reverse rdf:resource='#id-13'/>
+  </netowl:Entity.Artifact.Weapon.Missile>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-5'>
+    <rdfs:label>afrin</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>afrin</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-7'>
+    <rdfs:label>genocide</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>genocide</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Concept.Social_media.Hashtag rdf:ID='id-9'>
+    <rdfs:label>kurds</rdfs:label>
+    <netowl:Entity.Concept.Social_media.Hashtag..name>kurds</netowl:Entity.Concept.Social_media.Hashtag..name>
+  </netowl:Entity.Concept.Social_media.Hashtag>
+
+  <netowl:Entity.Place.Country rdf:ID='id-11'>
+    <rdfs:label>countries</rdfs:label>
+    <netowl:Entity.Place.Country..descriptor>countries</netowl:Entity.Place.Country..descriptor>
+    <netowl:Event.Transaction.Transport_artifact..to_place..reverse rdf:resource='#id-13'/>
+  </netowl:Entity.Place.Country>
+
+  <netowl:Event.Transaction.Transport_artifact rdf:ID='id-13'>
+    <rdfs:label>’re sending</rdfs:label>
+    <netowl:Event.Transaction.Transport_artifact..predicate>’re sending</netowl:Event.Transaction.Transport_artifact..predicate>
+    <netowl:Event.Transaction.Transport_artifact..artifact rdf:resource='#id-3'/>
+    <netowl:Event.Transaction.Transport_artifact..to_place rdf:resource='#id-11'/>
+  </netowl:Event.Transaction.Transport_artifact>
+
+</rdf:RDF>
